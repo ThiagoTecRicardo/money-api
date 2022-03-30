@@ -11,6 +11,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+
 @SuppressWarnings("deprecation")
 @Configuration
 @EnableWebSecurity
@@ -36,6 +37,8 @@ public class ResourceServerConfig extends WebSecurityConfigurerAdapter{
                 .csrf().disable()
                 .oauth2ResourceServer().opaqueToken();
     }
+
+    
 
     
     @Bean
