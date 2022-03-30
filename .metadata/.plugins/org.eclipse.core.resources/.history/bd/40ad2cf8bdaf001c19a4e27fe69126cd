@@ -1,0 +1,5 @@
+package com.money.api.config;
+
+public class AuthorizationServerConfig {
+
+}

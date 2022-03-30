@@ -1,0 +1,5 @@
+package com.money.api.service.exception;
+
+public class PessoaInexitenteOuInatovaException extends Exception {
+
+}

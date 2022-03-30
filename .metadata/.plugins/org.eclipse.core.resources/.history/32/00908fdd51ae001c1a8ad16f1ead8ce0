@@ -1,0 +1,16 @@
+package com.money.api.service;
+
+@Service
+public class PessoaService {
+ 	
+	@Autowired
+	private PessoaRepository pessoaRepository;
+
+	public Pessoa atualizar(Long codigo, Pessoa pessoa) {
+		Pessoa pessoaSalva = pessoaRepository.findById(codigo)
+                                .orElseThrow(() -> new EmptyResultDataAccessException(1));
+		
+		BeanUtils.copyProperties(pessoa, pessoaSalva, "codigo");
+		return pessoaRepository.save(pessoaSalva);
+	}   
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;money-api/src/main/resources/db/migreation&apos; to &apos;migration&apos;" description="Rename resource &apos;migreation&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/db/migreation" name="migration" stamp="1648174203270" updateReferences="true"/>
+</session>

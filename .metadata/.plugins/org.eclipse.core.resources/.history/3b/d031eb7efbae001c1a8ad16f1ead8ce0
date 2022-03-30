@@ -1,0 +1,30 @@
+package com.money.api.service;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.money.api.model.Lancamento;
+import com.money.api.model.Pessoa;
+import com.money.api.repository.PessoaRepository;
+
+@Service
+public class LancamentoService {
+	
+	@Autowired
+	private PessoaRepository pessoaRepository;
+
+	public Lancamento slavar(@Valid Lancamento lancamento) {
+		
+		Pessoa pessoa = pessoaRepository.getById(lancamento.getPessoa().getCodigo());
+		if(pessoa == null || !pessoa.isInativo()) {
+			
+		}
+		
+		return null;
+	}
+	
+	
+
+}

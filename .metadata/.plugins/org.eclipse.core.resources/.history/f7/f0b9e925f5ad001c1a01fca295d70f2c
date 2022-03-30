@@ -1,0 +1,5 @@
+package com.money.api.exceptionhandler;
+
+public class MoneyExceptionHandler {
+
+}

@@ -1,0 +1,5 @@
+package com.money.api.event;
+
+public class RecursoCriadoEvent {
+
+}

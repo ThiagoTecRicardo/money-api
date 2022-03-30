@@ -1,0 +1,39 @@
+package com.money.api.repository.filter;
+
+import java.time.LocalDate;
+
+public class LancamentoFilter {
+	
+	private String descricao;
+	
+	private LocalDate datavencimentoDe;
+	
+	private LocalDate datavencimentoAte;
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	public LocalDate getDatavencimentoDe() {
+		return datavencimentoDe;
+	}
+
+	public void setDatavencimentoDe(LocalDate datavencimentoDe) {
+		this.datavencimentoDe = datavencimentoDe;
+	}
+
+	public LocalDate getDatavencimentoAte() {
+		return datavencimentoAte;
+	}
+
+	public void setDatavencimentoAte(LocalDate datavencimentoAte) {
+		this.datavencimentoAte = datavencimentoAte;
+	}
+	
+	
+
+}

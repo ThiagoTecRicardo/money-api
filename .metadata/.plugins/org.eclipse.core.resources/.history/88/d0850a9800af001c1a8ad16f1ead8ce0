@@ -1,0 +1,5 @@
+package com.money.api.repository.filter;
+
+public class LancamentoFilter {
+
+}
