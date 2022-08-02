@@ -11432,3 +11432,1244 @@ Binding(ALT+COMMAND+R,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-29 21:34:49.361
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RBvDZQBg => OK
+!SESSION 2022-06-17 09:48:57.073 -----------------------------------------------
+eclipse.buildId=4.13.0.202112031748
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/thiago/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/thiago/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-06-17 09:49:13.134
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-17 09:49:13.134
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@446dacf9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13018f00,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-17 09:49:13.134
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@abf1816,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e1e7bc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:18.009
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:18.011
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3f1b4a14[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:18.012
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:18.036
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:21.097
+!MESSAGE Boot LS startup time from start to initialized: 3076ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:21.278
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kMJlYAiwisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:21.300
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:21.301
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:21.305
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:21.305
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kMJlYAiw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:21.307
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:21.353
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:21.355
+!MESSAGE buffering callback sts4.classpath.kMJlYAiw money-api false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:21.357
+!MESSAGE executing callback sts4.classpath.kMJlYAiw 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:22.063
+!MESSAGE executing callback sts4.classpath.kMJlYAiw SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-17 09:49:23.754
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-17 09:49:24.771
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-17 09:49:25.240
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:34.232
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:34.242
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:34.244
+!MESSAGE buffering callback sts4.classpath.kMJlYAiw money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:34.244
+!MESSAGE executing callback sts4.classpath.kMJlYAiw 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-17 09:49:34.273
+!MESSAGE executing callback sts4.classpath.kMJlYAiw SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-17 09:49:35.614
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-17 09:49:36.617
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jface 2 0 2022-06-20 08:44:53.355
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-20 08:44:53.356
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@791930f8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b858ed8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-20 09:41:10.407
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kMJlYAiw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-20 09:41:10.412
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.kMJlYAiw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-20 09:41:10.412
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-20 09:41:10.412
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kMJlYAiw => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-06-20 09:41:11.230
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-07-09 14:16:04.097 -----------------------------------------------
+eclipse.buildId=4.13.0.202112031748
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/thiago/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/thiago/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-07-09 14:16:17.897
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-09 14:16:17.897
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5dd227b7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d3b852e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-09 14:16:17.898
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14ba7f15,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@55cb3b7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:21.278
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:21.282
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6945fdb8[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:21.286
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:21.675
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2022-07-09 14:16:22.455
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-09 14:16:22.456
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4988c303,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@798ac54d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:25.378
+!MESSAGE Boot LS startup time from start to initialized: 4073ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:25.502
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ijUtlbHoisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:25.512
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:25.517
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:25.519
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:25.519
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ijUtlbHo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:25.528
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:26.596
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:26.610
+!MESSAGE buffering callback sts4.classpath.ijUtlbHo money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:26.612
+!MESSAGE executing callback sts4.classpath.ijUtlbHo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:16:27.128
+!MESSAGE executing callback sts4.classpath.ijUtlbHo SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-07-09 14:17:07.611
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 14:19:59.200
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:21:30.569
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ijUtlbHo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:21:30.570
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ijUtlbHo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:21:30.571
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:21:30.571
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ijUtlbHo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:39.125
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:39.129
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6945fdb8[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:39.130
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 14:25:39.531
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:41.505
+!MESSAGE Boot LS startup time from start to initialized: 2368ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:41.590
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vPkPiDHyisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:41.591
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:41.591
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:41.591
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:41.591
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vPkPiDHy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:41.592
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:41.598
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:41.600
+!MESSAGE buffering callback sts4.classpath.vPkPiDHy money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:41.600
+!MESSAGE executing callback sts4.classpath.vPkPiDHy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:25:41.951
+!MESSAGE executing callback sts4.classpath.vPkPiDHy SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 14:25:57.092
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 14:26:44.062
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-07-09 14:29:22.735
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 14:29:30.860
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 14:30:54.325
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 14:31:57.386
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 14:34:05.927
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 14:39:17.365
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 14:40:13.282
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:40:38.855
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vPkPiDHy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:40:38.856
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.vPkPiDHy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:40:38.856
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:40:38.856
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vPkPiDHy => OK
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 14:41:14.224
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:14.437
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:14.439
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6945fdb8[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:14.439
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:16.479
+!MESSAGE Boot LS startup time from start to initialized: 2027ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:16.544
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JXmeoagHisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:16.545
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:16.545
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:16.545
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:16.545
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JXmeoagH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:16.546
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:16.554
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:16.555
+!MESSAGE buffering callback sts4.classpath.JXmeoagH money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:16.556
+!MESSAGE executing callback sts4.classpath.JXmeoagH 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 14:41:16.935
+!MESSAGE executing callback sts4.classpath.JXmeoagH SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 15:12:51.409
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:30.292
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JXmeoagH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:30.293
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.JXmeoagH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:30.294
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:30.294
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JXmeoagH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:34.037
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:34.038
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6945fdb8[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:34.039
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:36.216
+!MESSAGE Boot LS startup time from start to initialized: 2159ms
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-07-09 15:13:36.257
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:36.296
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dBUYaBmaisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:36.298
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:36.299
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:36.300
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:36.300
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dBUYaBma => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:36.302
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:36.313
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:36.314
+!MESSAGE buffering callback sts4.classpath.dBUYaBma money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:36.315
+!MESSAGE executing callback sts4.classpath.dBUYaBma 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-09 15:13:36.693
+!MESSAGE executing callback sts4.classpath.dBUYaBma SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 15:15:45.515
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 15:16:58.413
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 15:17:41.256
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 15:17:57.517
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 15:20:38.737
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 15:21:23.678
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 15:23:17.863
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 15:24:28.335
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 15:47:37.888
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 15:47:57.301
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:42:26.372
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:42:32.597
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:42:39.076
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:43:19.595
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:46:02.917
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:46:24.395
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:46:49.750
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:47:19.137
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:47:37.944
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:48:02.877
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:48:30.161
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:49:11.028
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:49:16.286
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:49:34.999
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:51:34.182
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:52:47.886
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:54:50.987
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:55:56.112
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-09 18:56:41.148
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-12 12:29:40.214
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dBUYaBma
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-12 12:29:40.229
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.dBUYaBma
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-12 12:29:40.232
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-12 12:29:40.234
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dBUYaBma => OK
+!SESSION 2022-07-13 19:09:08.119 -----------------------------------------------
+eclipse.buildId=4.13.0.202112031748
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/thiago/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/thiago/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-07-13 19:09:17.807
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-13 19:09:17.807
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5bf1b528,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c92f094,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-13 19:09:17.807
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c3b221f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@750c23a3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:23.431
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:23.434
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6abd3c3c[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:23.436
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:23.467
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:27.445
+!MESSAGE Boot LS startup time from start to initialized: 3999ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:27.719
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ASdSvBprisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:27.744
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:27.756
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:27.791
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:27.797
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ASdSvBpr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:27.798
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:27.866
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:27.870
+!MESSAGE buffering callback sts4.classpath.ASdSvBpr money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:27.872
+!MESSAGE executing callback sts4.classpath.ASdSvBpr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-13 19:09:28.695
+!MESSAGE executing callback sts4.classpath.ASdSvBpr SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-14 10:58:19.130
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ASdSvBpr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-14 10:58:19.151
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ASdSvBpr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-14 10:58:19.153
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-14 10:58:19.154
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ASdSvBpr => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-07-14 10:58:20.358
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-07-16 18:06:57.871 -----------------------------------------------
+eclipse.buildId=4.13.0.202112031748
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/thiago/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/thiago/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-07-16 18:07:10.210
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-16 18:07:10.210
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5dc120ab,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49c4118b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-16 18:07:10.210
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ef7f414,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@182dcd2b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:15.411
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:15.413
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1c93f932[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:15.416
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:15.554
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:20.682
+!MESSAGE Boot LS startup time from start to initialized: 5191ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:20.902
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zgQcdgrsisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:20.915
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:20.917
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:20.918
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:20.920
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zgQcdgrs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:20.921
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:20.981
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:20.986
+!MESSAGE buffering callback sts4.classpath.zgQcdgrs money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:20.988
+!MESSAGE executing callback sts4.classpath.zgQcdgrs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:07:21.676
+!MESSAGE executing callback sts4.classpath.zgQcdgrs SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-07-16 18:07:28.434
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-16 18:10:00.907
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-16 18:10:02.199
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-16 18:18:43.421
+!MESSAGE The POM for com.datadoghq:dd-trace-api:jar:{version} is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:18:44.638
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:18:44.645
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:18:44.646
+!MESSAGE buffering callback sts4.classpath.zgQcdgrs money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:18:44.646
+!MESSAGE executing callback sts4.classpath.zgQcdgrs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:18:44.707
+!MESSAGE executing callback sts4.classpath.zgQcdgrs SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-16 18:18:45.275
+!MESSAGE The POM for com.datadoghq:dd-trace-api:jar:{version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-07-16 18:18:46.405
+!MESSAGE Could not download sources for com.datadoghq:dd-trace-api:{version}
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.datadoghq:dd-trace-api:jar:sources:{version}
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.datadoghq:dd-trace-api:jar:sources:{version}
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-07-16 18:18:46.411
+!MESSAGE Could not resolve artifact com.datadoghq:dd-trace-api:jar:sources:{version}
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-07-16 18:18:46.411
+!MESSAGE Missing com.datadoghq:dd-trace-api:jar:sources:{version}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-16 18:19:06.467
+!MESSAGE The POM for com.datadoghq:dd-trace-api:jar:1 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:19:07.863
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:19:07.871
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:19:07.875
+!MESSAGE buffering callback sts4.classpath.zgQcdgrs money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:19:07.876
+!MESSAGE executing callback sts4.classpath.zgQcdgrs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:19:07.975
+!MESSAGE executing callback sts4.classpath.zgQcdgrs SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-16 18:19:08.273
+!MESSAGE The POM for com.datadoghq:dd-trace-api:jar:1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-07-16 18:19:09.023
+!MESSAGE Could not download sources for com.datadoghq:dd-trace-api:1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.datadoghq:dd-trace-api:jar:sources:1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.datadoghq:dd-trace-api:jar:sources:1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-07-16 18:19:09.028
+!MESSAGE Could not resolve artifact com.datadoghq:dd-trace-api:jar:sources:1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-07-16 18:19:09.028
+!MESSAGE Missing com.datadoghq:dd-trace-api:jar:sources:1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:19:16.720
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:19:16.734
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:19:16.735
+!MESSAGE buffering callback sts4.classpath.zgQcdgrs money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:19:16.736
+!MESSAGE executing callback sts4.classpath.zgQcdgrs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 18:19:16.770
+!MESSAGE executing callback sts4.classpath.zgQcdgrs SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-16 18:19:18.173
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-16 18:19:18.886
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-16 18:34:59.976
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-17 20:27:56.905
+!MESSAGE The POM for com.datadoghq:dd-trace-api:jar:7 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-17 20:27:57.590
+!MESSAGE The POM for com.datadoghq:dd-trace-api:jar:7 is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-17 20:27:57.797
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-17 20:27:57.809
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-17 20:27:57.811
+!MESSAGE buffering callback sts4.classpath.zgQcdgrs money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-17 20:27:57.813
+!MESSAGE executing callback sts4.classpath.zgQcdgrs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-17 20:27:58.058
+!MESSAGE executing callback sts4.classpath.zgQcdgrs SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-17 20:27:59.075
+!MESSAGE The POM for com.datadoghq:dd-trace-api:jar:7 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-07-17 20:27:59.851
+!MESSAGE Could not download sources for com.datadoghq:dd-trace-api:7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.datadoghq:dd-trace-api:jar:sources:7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:285)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.datadoghq:dd-trace-api:jar:sources:7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-07-17 20:27:59.854
+!MESSAGE Could not resolve artifact com.datadoghq:dd-trace-api:jar:sources:7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-07-17 20:27:59.854
+!MESSAGE Missing com.datadoghq:dd-trace-api:jar:sources:7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-17 20:28:11.138
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-17 20:28:11.148
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-17 20:28:11.149
+!MESSAGE buffering callback sts4.classpath.zgQcdgrs money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-17 20:28:11.150
+!MESSAGE executing callback sts4.classpath.zgQcdgrs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-17 20:28:11.191
+!MESSAGE executing callback sts4.classpath.zgQcdgrs SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-17 20:28:12.661
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-17 20:28:13.556
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-07-17 20:31:46.263
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$13(LanguageServerWrapper.java:425)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.jface 2 0 2022-07-17 20:32:46.899
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-17 20:32:46.901
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@406da46a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ebebdce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-07-17 20:36:22.958
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-18 11:22:01.960
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zgQcdgrs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-18 11:22:02.047
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zgQcdgrs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-18 11:22:02.048
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-18 11:22:02.049
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zgQcdgrs => OK
+!SESSION 2022-08-01 20:11:24.314 -----------------------------------------------
+eclipse.buildId=4.13.0.202112031748
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/thiago/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/thiago/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-08-01 20:11:33.829
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-01 20:11:33.829
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c3b221f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@750c23a3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-01 20:11:33.829
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@238280df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@182fd26b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:37.340
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:37.343
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3bd552f7[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:37.346
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:37.430
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:40.370
+!MESSAGE Boot LS startup time from start to initialized: 3008ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:40.627
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.saGVjdIyisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:40.633
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:40.635
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:40.637
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:40.637
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.saGVjdIy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:40.641
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:42.227
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:42.243
+!MESSAGE buffering callback sts4.classpath.saGVjdIy money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:42.245
+!MESSAGE executing callback sts4.classpath.saGVjdIy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-01 20:11:42.861
+!MESSAGE executing callback sts4.classpath.saGVjdIy SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:12:41.224
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:12:49.259
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:13:38.976
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:13:41.870
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jface 2 0 2022-08-01 20:13:46.632
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-01 20:13:46.632
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79f8af90,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41416c61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:16:16.929
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.ui 2 2 2022-08-01 20:16:32.327
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:16:35.512
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:16:36.525
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:16:41.353
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:17:25.690
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:20:43.150
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:20:54.666
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:21:09.679
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 20:23:29.659
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 21:54:22.979
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 22:00:55.269
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 22:05:55.165
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 22:07:34.727
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 22:07:55.487
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 22:08:12.379
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 22:08:43.091
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-01 22:10:57.504
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-02 15:23:31.830
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-02 15:25:30.170
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-02 15:28:28.705
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final

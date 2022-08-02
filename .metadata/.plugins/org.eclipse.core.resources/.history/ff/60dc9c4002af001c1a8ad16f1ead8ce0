@@ -1,7 +1,0 @@
-package LancamentoRepositoryImpl;
-
-import com.money.api.repository.lancamento.LancamentoRepositoryQuery;
-
-public class LancamentoRepositoryImpl implements LancamentoRepositoryQuery{
-
-}

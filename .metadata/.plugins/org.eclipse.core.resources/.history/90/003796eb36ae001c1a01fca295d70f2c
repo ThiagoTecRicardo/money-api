@@ -1,5 +1,0 @@
-package com.money.api.repository;
-
-public interface PessoaRepository {
-
-}

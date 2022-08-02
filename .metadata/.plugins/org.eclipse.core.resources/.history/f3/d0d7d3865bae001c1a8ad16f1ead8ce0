@@ -1,6 +1,0 @@
-package com.money.api.repository;
-
-@Repository
-public interface LancamentoRepository extends JpaRepository<Lancamento, Long> {
-    
-}
