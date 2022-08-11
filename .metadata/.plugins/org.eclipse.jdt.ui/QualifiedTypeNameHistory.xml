@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
-    <fullyQualifiedTypeName name="com.money.api.model.Categoria"/>
-    <fullyQualifiedTypeName name="org.springframework.dao.EmptyResultDataAccessException"/>
-    <fullyQualifiedTypeName name="org.springframework.http.HttpHeaders"/>
-    <fullyQualifiedTypeName name="javax.validation.Valid"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
     <fullyQualifiedTypeName name="com.money.api.model.Pessoa"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseStatus"/>
@@ -43,7 +37,6 @@
     <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter"/>
-    <fullyQualifiedTypeName name="org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
@@ -60,4 +53,11 @@
     <fullyQualifiedTypeName name="com.money.api.repository.UsuarioRepository"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.authentication.configuration.EnableGlobalAuthentication"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity"/>
+    <fullyQualifiedTypeName name="org.springframework.security.access.expression.method.MethodSecurityExpressionHandler"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler"/>
+    <fullyQualifiedTypeName name="org.springframework.security.access.prepost.PreAuthorize"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder"/>
 </qualifiedTypeNameHistroy>

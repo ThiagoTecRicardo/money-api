@@ -12679,3 +12679,1042 @@ Binding(COMMAND+SHIFT+C,
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-02 20:30:16.589
 !MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-02 21:01:04.038
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-02 21:01:22.874
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-08-02 21:01:26.889
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$13(LanguageServerWrapper.java:425)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-02 21:04:49.951
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-08-02 21:05:03.897
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-02 21:05:07.118
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-06 21:18:08.560
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-06 21:18:12.175
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.saGVjdIy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-06 21:18:12.184
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.saGVjdIy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-06 21:18:12.186
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-06 21:18:12.186
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.saGVjdIy => OK
+!SESSION 2022-08-10 21:33:21.293 -----------------------------------------------
+eclipse.buildId=4.13.0.202112031748
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/thiago/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/thiago/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-08-10 21:34:04.551
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-10 21:34:04.551
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@688efeb2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@85f5f55,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-10 21:34:04.551
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@131c5bd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@394331a8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:10.028
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:10.031
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@36cbce1e[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:10.034
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:10.085
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:13.084
+!MESSAGE Boot LS startup time from start to initialized: 3033ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:13.237
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iSsyXNVJisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:13.242
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:13.243
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:13.246
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:13.246
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iSsyXNVJ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:13.251
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:13.328
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:13.334
+!MESSAGE buffering callback sts4.classpath.iSsyXNVJ money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:13.338
+!MESSAGE executing callback sts4.classpath.iSsyXNVJ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 21:34:14.012
+!MESSAGE executing callback sts4.classpath.iSsyXNVJ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:08.074
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iSsyXNVJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:08.077
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.iSsyXNVJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:08.077
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:08.081
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iSsyXNVJ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:45.169
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:45.173
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@36cbce1e[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:45.173
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:47.598
+!MESSAGE Boot LS startup time from start to initialized: 2419ms
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-08-10 22:31:47.618
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:47.697
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WZaqufRBisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:47.698
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:47.698
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:47.698
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:47.699
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WZaqufRB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:47.699
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:47.712
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:47.714
+!MESSAGE buffering callback sts4.classpath.WZaqufRB money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:47.714
+!MESSAGE executing callback sts4.classpath.WZaqufRB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-10 22:31:48.208
+!MESSAGE executing callback sts4.classpath.WZaqufRB SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-10 22:33:02.466
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-10 22:33:03.768
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-10 22:34:16.031
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-10 22:43:04.037
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 14:46:29.706
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 14:49:12.353
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:49:59.801
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WZaqufRB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:49:59.802
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.WZaqufRB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:49:59.803
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:49:59.803
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WZaqufRB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:07.965
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:07.969
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@36cbce1e[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:07.970
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-08-11 14:50:10.410
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:10.448
+!MESSAGE Boot LS startup time from start to initialized: 2464ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:10.533
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TIHjrTSmisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:10.533
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:10.533
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:10.534
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:10.534
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TIHjrTSm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:10.534
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:10.564
+!MESSAGE classpath=115 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:10.565
+!MESSAGE buffering callback sts4.classpath.TIHjrTSm money-api false 115
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:10.565
+!MESSAGE executing callback sts4.classpath.TIHjrTSm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 14:50:10.970
+!MESSAGE executing callback sts4.classpath.TIHjrTSm SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 14:51:00.413
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 14:51:52.440
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 14:52:26.364
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 15:22:58.411
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.ui 2 2 2022-08-11 15:36:33.965
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 15:37:03.127
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 15:43:13.889
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-08-11 15:43:38.631
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$13(LanguageServerWrapper.java:425)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 15:43:41.126
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 15:43:41.211
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 15:43:41.216
+!MESSAGE buffering callback sts4.classpath.TIHjrTSm money-api false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 15:43:41.218
+!MESSAGE executing callback sts4.classpath.TIHjrTSm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 15:43:41.366
+!MESSAGE executing callback sts4.classpath.TIHjrTSm SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 15:43:43.834
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 15:43:46.554
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 15:43:47.111
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 15:43:47.122
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 15:43:47.123
+!MESSAGE buffering callback sts4.classpath.TIHjrTSm money-api false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 15:43:47.124
+!MESSAGE executing callback sts4.classpath.TIHjrTSm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 15:43:47.191
+!MESSAGE executing callback sts4.classpath.TIHjrTSm SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 16:06:52.534
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 16:11:54.236
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jface 2 0 2022-08-11 16:12:36.646
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-11 16:12:36.648
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6643e392,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@25df910d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-08-11 16:14:57.846
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$13(LanguageServerWrapper.java:425)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:26.489
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TIHjrTSm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:26.494
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.TIHjrTSm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:26.495
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:26.495
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TIHjrTSm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:46.498
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:46.499
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@36cbce1e[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:46.499
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:48.939
+!MESSAGE Boot LS startup time from start to initialized: 2407ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:49.018
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.IXMAKDAjisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:49.018
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:49.018
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:49.019
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:49.019
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.IXMAKDAj => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:49.020
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:49.027
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:49.028
+!MESSAGE buffering callback sts4.classpath.IXMAKDAj money-api false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:49.028
+!MESSAGE executing callback sts4.classpath.IXMAKDAj 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:15:49.454
+!MESSAGE executing callback sts4.classpath.IXMAKDAj SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 16:16:36.148
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:16:46.031
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IXMAKDAj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:16:46.031
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.IXMAKDAj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:16:46.031
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:16:46.031
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IXMAKDAj => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:17.319
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:17.320
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@36cbce1e[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:17.320
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:19.405
+!MESSAGE Boot LS startup time from start to initialized: 2081ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:19.499
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zOvjjCOFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:19.501
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:19.502
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:19.502
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:19.503
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zOvjjCOF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:19.505
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:19.527
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:19.528
+!MESSAGE buffering callback sts4.classpath.zOvjjCOF money-api false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:19.529
+!MESSAGE executing callback sts4.classpath.zOvjjCOF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:17:19.953
+!MESSAGE executing callback sts4.classpath.zOvjjCOF SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 16:17:55.679
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:00.736
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zOvjjCOF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:00.739
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zOvjjCOF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:00.740
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:00.740
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zOvjjCOF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:13.232
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:13.233
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@36cbce1e[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:13.234
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:15.534
+!MESSAGE Boot LS startup time from start to initialized: 2298ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:15.608
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qGsqVheyisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:15.608
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:15.608
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:15.608
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:15.608
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qGsqVhey => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:15.609
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:15.618
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:15.619
+!MESSAGE buffering callback sts4.classpath.qGsqVhey money-api false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:15.619
+!MESSAGE executing callback sts4.classpath.qGsqVhey 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 16:43:16.028
+!MESSAGE executing callback sts4.classpath.qGsqVhey SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 16:44:00.207
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 16:44:04.174
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 1 2022-08-11 16:44:04.205
+!MESSAGE Exception thrown by Java annotation processor org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor@5cdf6519
+!STACK 0
+java.lang.Exception: java.lang.IllegalStateException: Error processing configuration meta-data on com.money.api.config.property.MoneyApiProperty
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:172)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:124)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:138)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:950)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:450)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:371)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:190)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:147)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:289)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:160)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Error processing configuration meta-data on com.money.api.config.property.MoneyApiProperty
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processElement(ConfigurationMetadataAnnotationProcessor.java:215)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.process(ConfigurationMetadataAnnotationProcessor.java:169)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:142)
+	... 25 more
+Caused by: org.eclipse.jdt.internal.compiler.problem.AbortCompilation: 
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.findClass(NameEnvironment.java:511)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.findType(NameEnvironment.java:581)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.lambda$0(LookupEnvironment.java:237)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:372)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:236)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1732)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1701)
+	at org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9.getTypeElement(ElementsImpl9.java:81)
+	at org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9.getTypeElement(ElementsImpl9.java:53)
+	at org.springframework.boot.configurationprocessor.TypeUtils.process(TypeUtils.java:237)
+	at org.springframework.boot.configurationprocessor.TypeUtils.createTypeDescriptor(TypeUtils.java:228)
+	at org.springframework.boot.configurationprocessor.TypeUtils.getType(TypeUtils.java:137)
+	at org.springframework.boot.configurationprocessor.PropertyDescriptor.resolveType(PropertyDescriptor.java:155)
+	at org.springframework.boot.configurationprocessor.PropertyDescriptor.resolveItemMetadataProperty(PropertyDescriptor.java:136)
+	at org.springframework.boot.configurationprocessor.PropertyDescriptor.resolveItemMetadata(PropertyDescriptor.java:130)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.lambda$processTypeElement$0(ConfigurationMetadataAnnotationProcessor.java:251)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processTypeElement(ConfigurationMetadataAnnotationProcessor.java:250)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.lambda$processTypeElement$0(ConfigurationMetadataAnnotationProcessor.java:256)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processTypeElement(ConfigurationMetadataAnnotationProcessor.java:250)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processAnnotatedTypeElement(ConfigurationMetadataAnnotationProcessor.java:222)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processElement(ConfigurationMetadataAnnotationProcessor.java:207)
+	... 27 more
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 1 2022-08-11 16:44:04.256
+!MESSAGE Exception thrown by Java annotation processor org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor@5cdf6519
+!STACK 0
+java.lang.Exception: java.lang.IllegalStateException: Failed to write metadata
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:172)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:113)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:138)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:988)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:450)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:371)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:190)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:147)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:289)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:160)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Failed to write metadata
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.process(ConfigurationMetadataAnnotationProcessor.java:183)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:142)
+	... 25 more
+Caused by: org.eclipse.jdt.internal.compiler.problem.AbortCompilation: 
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.findClass(NameEnvironment.java:511)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.findType(NameEnvironment.java:581)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.lambda$0(LookupEnvironment.java:237)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:372)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:236)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1732)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1701)
+	at org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9.getTypeElement(ElementsImpl9.java:81)
+	at org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9.getTypeElement(ElementsImpl9.java:53)
+	at org.springframework.boot.configurationprocessor.MetadataCollector.deletedInCurrentBuild(MetadataCollector.java:114)
+	at org.springframework.boot.configurationprocessor.MetadataCollector.shouldBeMerged(MetadataCollector.java:110)
+	at org.springframework.boot.configurationprocessor.MetadataCollector.getMetadata(MetadataCollector.java:100)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.writeMetaData(ConfigurationMetadataAnnotationProcessor.java:328)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.process(ConfigurationMetadataAnnotationProcessor.java:180)
+	... 26 more
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 16:44:29.296
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 1 2022-08-11 16:44:29.328
+!MESSAGE Exception thrown by Java annotation processor org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor@3a668dca
+!STACK 0
+java.lang.Exception: java.lang.IllegalStateException: Error processing configuration meta-data on com.money.api.config.property.MoneyApiProperty
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:172)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:124)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:138)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:950)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:450)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:371)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:190)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:147)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:289)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:160)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Error processing configuration meta-data on com.money.api.config.property.MoneyApiProperty
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processElement(ConfigurationMetadataAnnotationProcessor.java:215)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.process(ConfigurationMetadataAnnotationProcessor.java:169)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:142)
+	... 25 more
+Caused by: org.eclipse.jdt.internal.compiler.problem.AbortCompilation: 
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.findClass(NameEnvironment.java:511)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.findType(NameEnvironment.java:581)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.lambda$0(LookupEnvironment.java:237)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:372)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:236)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1732)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1701)
+	at org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9.getTypeElement(ElementsImpl9.java:81)
+	at org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9.getTypeElement(ElementsImpl9.java:53)
+	at org.springframework.boot.configurationprocessor.TypeUtils.process(TypeUtils.java:237)
+	at org.springframework.boot.configurationprocessor.TypeUtils.createTypeDescriptor(TypeUtils.java:228)
+	at org.springframework.boot.configurationprocessor.TypeUtils.getType(TypeUtils.java:137)
+	at org.springframework.boot.configurationprocessor.PropertyDescriptor.resolveType(PropertyDescriptor.java:155)
+	at org.springframework.boot.configurationprocessor.PropertyDescriptor.resolveItemMetadataProperty(PropertyDescriptor.java:136)
+	at org.springframework.boot.configurationprocessor.PropertyDescriptor.resolveItemMetadata(PropertyDescriptor.java:130)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.lambda$processTypeElement$0(ConfigurationMetadataAnnotationProcessor.java:251)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processTypeElement(ConfigurationMetadataAnnotationProcessor.java:250)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.lambda$processTypeElement$0(ConfigurationMetadataAnnotationProcessor.java:256)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processTypeElement(ConfigurationMetadataAnnotationProcessor.java:250)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processAnnotatedTypeElement(ConfigurationMetadataAnnotationProcessor.java:222)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processElement(ConfigurationMetadataAnnotationProcessor.java:207)
+	... 27 more
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 1 2022-08-11 16:44:29.359
+!MESSAGE Exception thrown by Java annotation processor org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor@3a668dca
+!STACK 0
+java.lang.Exception: java.lang.IllegalStateException: Failed to write metadata
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:172)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:113)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:138)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:988)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:450)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:371)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:190)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:147)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:289)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:160)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Failed to write metadata
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.process(ConfigurationMetadataAnnotationProcessor.java:183)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:142)
+	... 25 more
+Caused by: org.eclipse.jdt.internal.compiler.problem.AbortCompilation: 
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.findClass(NameEnvironment.java:511)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.findType(NameEnvironment.java:581)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.lambda$0(LookupEnvironment.java:237)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:372)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:236)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1732)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1701)
+	at org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9.getTypeElement(ElementsImpl9.java:81)
+	at org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9.getTypeElement(ElementsImpl9.java:53)
+	at org.springframework.boot.configurationprocessor.MetadataCollector.deletedInCurrentBuild(MetadataCollector.java:114)
+	at org.springframework.boot.configurationprocessor.MetadataCollector.shouldBeMerged(MetadataCollector.java:110)
+	at org.springframework.boot.configurationprocessor.MetadataCollector.getMetadata(MetadataCollector.java:100)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.writeMetaData(ConfigurationMetadataAnnotationProcessor.java:328)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.process(ConfigurationMetadataAnnotationProcessor.java:180)
+	... 26 more
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 16:45:28.674
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 1 2022-08-11 16:45:28.690
+!MESSAGE Exception thrown by Java annotation processor org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor@35b41b43
+!STACK 0
+java.lang.Exception: java.lang.IllegalStateException: Error processing configuration meta-data on com.money.api.config.property.MoneyApiProperty
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:172)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:124)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:138)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:950)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:450)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:371)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:190)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:147)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:289)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:160)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Error processing configuration meta-data on com.money.api.config.property.MoneyApiProperty
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processElement(ConfigurationMetadataAnnotationProcessor.java:215)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.process(ConfigurationMetadataAnnotationProcessor.java:169)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:142)
+	... 25 more
+Caused by: org.eclipse.jdt.internal.compiler.problem.AbortCompilation: 
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.findClass(NameEnvironment.java:511)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.findType(NameEnvironment.java:581)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.lambda$0(LookupEnvironment.java:237)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:372)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:236)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1732)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1701)
+	at org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9.getTypeElement(ElementsImpl9.java:81)
+	at org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9.getTypeElement(ElementsImpl9.java:53)
+	at org.springframework.boot.configurationprocessor.TypeUtils.process(TypeUtils.java:237)
+	at org.springframework.boot.configurationprocessor.TypeUtils.createTypeDescriptor(TypeUtils.java:228)
+	at org.springframework.boot.configurationprocessor.TypeUtils.getType(TypeUtils.java:137)
+	at org.springframework.boot.configurationprocessor.PropertyDescriptor.resolveType(PropertyDescriptor.java:155)
+	at org.springframework.boot.configurationprocessor.PropertyDescriptor.resolveItemMetadataProperty(PropertyDescriptor.java:136)
+	at org.springframework.boot.configurationprocessor.PropertyDescriptor.resolveItemMetadata(PropertyDescriptor.java:130)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.lambda$processTypeElement$0(ConfigurationMetadataAnnotationProcessor.java:251)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processTypeElement(ConfigurationMetadataAnnotationProcessor.java:250)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.lambda$processTypeElement$0(ConfigurationMetadataAnnotationProcessor.java:256)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processTypeElement(ConfigurationMetadataAnnotationProcessor.java:250)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processAnnotatedTypeElement(ConfigurationMetadataAnnotationProcessor.java:222)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.processElement(ConfigurationMetadataAnnotationProcessor.java:207)
+	... 27 more
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 4 1 2022-08-11 16:45:28.711
+!MESSAGE Exception thrown by Java annotation processor org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor@35b41b43
+!STACK 0
+java.lang.Exception: java.lang.IllegalStateException: Failed to write metadata
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:172)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.round(RoundDispatcher.java:113)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.BaseAnnotationProcessorManager.processAnnotations(BaseAnnotationProcessorManager.java:172)
+	at org.eclipse.jdt.internal.apt.pluggable.core.dispatch.IdeAnnotationProcessorManager.processAnnotations(IdeAnnotationProcessorManager.java:138)
+	at org.eclipse.jdt.internal.compiler.Compiler.processAnnotations(Compiler.java:988)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:450)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:371)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:311)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:190)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:147)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:289)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:160)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Failed to write metadata
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.process(ConfigurationMetadataAnnotationProcessor.java:183)
+	at org.eclipse.jdt.internal.compiler.apt.dispatch.RoundDispatcher.handleProcessor(RoundDispatcher.java:142)
+	... 25 more
+Caused by: org.eclipse.jdt.internal.compiler.problem.AbortCompilation: 
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.findClass(NameEnvironment.java:511)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.findType(NameEnvironment.java:581)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.lambda$0(LookupEnvironment.java:237)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:372)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:236)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1732)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getType(LookupEnvironment.java:1701)
+	at org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9.getTypeElement(ElementsImpl9.java:81)
+	at org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9.getTypeElement(ElementsImpl9.java:53)
+	at org.springframework.boot.configurationprocessor.MetadataCollector.deletedInCurrentBuild(MetadataCollector.java:114)
+	at org.springframework.boot.configurationprocessor.MetadataCollector.shouldBeMerged(MetadataCollector.java:110)
+	at org.springframework.boot.configurationprocessor.MetadataCollector.getMetadata(MetadataCollector.java:100)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.writeMetaData(ConfigurationMetadataAnnotationProcessor.java:328)
+	at org.springframework.boot.configurationprocessor.ConfigurationMetadataAnnotationProcessor.process(ConfigurationMetadataAnnotationProcessor.java:180)
+	... 26 more
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 16:46:57.859
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:46.631
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qGsqVhey
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:46.633
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qGsqVhey
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:46.634
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:46.634
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qGsqVhey => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:53.103
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:53.104
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@36cbce1e[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:53.104
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:55.458
+!MESSAGE Boot LS startup time from start to initialized: 2349ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:55.543
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KYQAxAOfisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:55.543
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:55.544
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:55.544
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:55.544
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:55.544
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KYQAxAOf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:55.570
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:55.573
+!MESSAGE buffering callback sts4.classpath.KYQAxAOf money-api false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:55.574
+!MESSAGE executing callback sts4.classpath.KYQAxAOf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:02:55.991
+!MESSAGE executing callback sts4.classpath.KYQAxAOf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:41:10.267
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:41:10.278
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:41:10.280
+!MESSAGE buffering callback sts4.classpath.KYQAxAOf money-api false 116
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:41:10.281
+!MESSAGE executing callback sts4.classpath.KYQAxAOf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-11 19:41:10.363
+!MESSAGE executing callback sts4.classpath.KYQAxAOf SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 19:41:12.519
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-08-11 19:41:13.368
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.6.7.Final

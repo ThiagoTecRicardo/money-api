@@ -4056,3 +4056,281 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.datadoghq
 2022-08-02 20:30:16,894 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-08-02 20:30:16,896 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-08-02 20:30:16,896 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-02 21:01:04,384 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 21:01:04,392 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-02 21:01:04,401 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-02 21:01:04,634 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-02 21:01:04,649 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 21:01:04,650 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-02 21:01:04,650 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-02 21:01:23,555 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 21:01:23,608 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-02 21:01:23,628 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-02 21:01:24,509 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-02 21:01:24,549 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 21:01:24,549 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-02 21:01:24,549 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-02 21:04:50,130 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 21:04:50,137 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-02 21:04:50,142 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-02 21:04:50,341 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-02 21:04:50,347 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 21:04:50,347 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-02 21:04:50,347 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-02 21:05:07,195 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 21:05:07,196 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-02 21:05:07,198 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-02 21:05:07,369 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-02 21:05:07,391 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-02 21:05:07,392 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-02 21:05:07,394 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-06 21:18:10,156 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-06 21:18:10,162 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-06 21:18:10,170 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-06 21:18:11,861 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-06 21:18:11,941 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-06 21:18:11,941 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-06 21:18:11,941 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-10 21:34:11,721 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-08-10 22:33:06,356 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 22:33:06,359 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 22:33:06,370 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 22:33:06,405 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-10 22:33:06,436 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 22:33:06,436 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 22:33:06,436 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-10 22:34:16,312 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 22:34:16,313 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 22:34:16,321 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 22:34:16,332 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-10 22:34:16,337 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 22:34:16,337 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 22:34:16,338 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-10 22:43:04,166 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 22:43:04,167 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 22:43:04,171 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 22:43:04,187 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-10 22:43:04,189 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 22:43:04,189 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-10 22:43:04,189 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 14:46:29,983 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 14:46:29,987 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 14:46:29,990 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 14:46:30,044 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 14:46:30,047 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 14:46:30,047 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 14:46:30,047 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 14:49:12,475 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 14:49:12,476 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 14:49:12,478 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 14:49:12,505 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 14:49:12,508 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 14:49:12,508 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 14:49:12,508 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 14:51:00,511 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 14:51:00,512 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 14:51:00,515 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 14:51:00,540 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 14:51:00,542 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 14:51:00,543 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 14:51:00,543 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 14:51:52,589 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 14:51:52,591 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 14:51:52,594 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 14:51:52,616 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 14:51:52,620 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 14:51:52,620 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 14:51:52,620 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 14:52:26,452 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 14:52:26,453 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 14:52:26,463 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 14:52:26,524 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 14:52:26,540 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 14:52:26,540 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 14:52:26,540 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 15:22:59,069 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 15:22:59,073 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 15:22:59,076 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 15:22:59,106 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 15:22:59,111 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 15:22:59,111 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 15:22:59,111 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 15:37:03,234 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 15:37:03,235 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 15:37:03,238 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 15:37:03,255 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 15:37:03,266 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 15:37:03,266 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 15:37:03,266 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 15:43:14,092 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 15:43:14,094 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 15:43:14,097 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 15:43:14,131 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 15:43:14,139 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 15:43:14,139 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 15:43:14,139 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 15:43:32,973 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-08-11 15:43:35,383 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.money-api:money-api:1.0.0-SNAPSHOT @ /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/pom.xml.
+2022-08-11 15:43:37,548 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.6.5/spring-boot-configuration-processor-2.6.5.pom
+2022-08-11 15:43:37,777 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.6.5/spring-boot-configuration-processor-2.6.5.pom
+2022-08-11 15:43:38,011 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.6.5/spring-boot-configuration-processor-2.6.5.jar
+2022-08-11 15:43:38,332 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.6.5/spring-boot-configuration-processor-2.6.5.jar
+2022-08-11 15:43:39,762 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /money-api/src/main/java
+2022-08-11 15:43:39,764 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /money-api/src/main/resources
+2022-08-11 15:43:39,766 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /money-api/src/main/resources
+2022-08-11 15:43:39,769 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /money-api/src/test/java
+2022-08-11 15:43:42,205 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 9 sec
+2022-08-11 15:43:43,697 [Worker-52: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.6.5/spring-boot-configuration-processor-2.6.5-sources.jar
+2022-08-11 15:43:44,120 [Worker-52: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.6.5/spring-boot-configuration-processor-2.6.5-sources.jar
+2022-08-11 15:43:44,904 [Worker-52: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-configuration-processor:2.6.5
+2022-08-11 15:43:48,101 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 15:43:48,102 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 15:43:48,106 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 15:43:48,130 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 15:43:48,169 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 15:43:48,180 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 15:43:48,181 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 16:06:52,765 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:06:52,767 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:06:52,773 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 16:06:53,460 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 16:06:53,541 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:06:53,541 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:06:53,541 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 16:11:23,746 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:11:23,747 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:11:23,748 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 16:11:23,748 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 16:11:23,758 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:11:23,758 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:11:23,759 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 16:11:54,290 [Worker-63: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:11:54,290 [Worker-63: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:11:54,293 [Worker-63: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-08-11 16:11:54,410 [Worker-63: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 16:11:54,417 [Worker-63: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:11:54,417 [Worker-63: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:11:54,417 [Worker-63: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 16:13:05,663 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:13:05,665 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:13:05,668 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 16:13:05,685 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 16:13:05,688 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:13:05,688 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:13:05,688 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 16:13:09,528 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:13:09,529 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:13:09,530 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 16:13:09,552 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 16:13:09,554 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:13:09,554 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:13:09,554 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 16:16:36,225 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:16:36,226 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:16:36,229 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-08-11 16:16:36,287 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 16:16:36,289 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:16:36,289 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:16:36,289 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 16:17:55,753 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:17:55,755 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:17:55,757 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-08-11 16:17:55,793 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 16:17:55,796 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:17:55,796 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:17:55,796 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 16:44:01,121 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:44:01,126 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:44:01,131 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-08-11 16:44:01,184 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 16:44:01,188 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:44:01,188 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:44:01,188 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 16:44:04,289 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:44:04,289 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:44:04,289 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-08-11 16:44:04,342 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 16:44:04,346 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:44:04,346 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:44:04,346 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 16:44:29,531 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:44:29,532 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:44:29,534 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-08-11 16:44:29,564 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 16:44:29,566 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:44:29,566 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:44:29,566 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 16:45:28,877 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:45:28,882 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:45:28,883 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-08-11 16:45:28,929 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 16:45:28,934 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:45:28,934 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:45:28,934 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 16:46:58,021 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:46:58,025 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:46:58,028 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-08-11 16:46:58,079 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-08-11 16:46:58,081 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 16:46:58,081 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 16:46:58,081 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 19:07:47,209 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:07:47,214 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:07:47,218 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 19:07:47,357 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:07:47,357 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:07:47,363 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 19:38:39,535 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:38:39,537 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:38:39,539 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 19:38:39,540 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 19:38:39,545 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:38:39,545 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:38:39,545 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 19:39:43,014 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:39:43,015 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:39:43,016 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 19:39:43,064 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 19:39:43,070 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:39:43,070 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:39:43,070 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 19:39:57,606 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:39:57,608 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:39:57,610 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 19:39:57,642 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:39:57,642 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:39:57,642 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 19:41:08,627 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-08-11 19:41:09,367 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.money-api:money-api:1.0.0-SNAPSHOT @ /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/pom.xml.
+2022-08-11 19:41:10,047 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /money-api/src/main/java
+2022-08-11 19:41:10,047 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /money-api/src/main/resources
+2022-08-11 19:41:10,048 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /money-api/src/main/resources
+2022-08-11 19:41:10,048 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /money-api/src/test/java
+2022-08-11 19:41:10,566 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-08-11 19:41:14,288 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:41:14,292 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:41:14,294 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-08-11 19:41:14,311 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:41:14,311 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:41:14,311 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 19:42:26,309 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:42:26,312 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:42:26,317 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 19:42:26,318 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 19:42:26,319 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:42:26,319 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:42:26,319 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 19:43:57,285 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:43:57,292 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:43:57,292 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 19:43:57,292 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 19:43:57,295 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:43:57,295 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:43:57,295 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
+2022-08-11 19:44:58,844 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:44:58,846 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:44:58,847 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 19:44:58,847 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 19:44:58,850 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 19:44:58,850 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-11 19:44:58,850 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/thiago/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/projeto-pessoal/money-api/src/test/resources
