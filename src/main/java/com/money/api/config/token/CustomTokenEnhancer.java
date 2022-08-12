@@ -5,12 +5,14 @@ import java.util.Map;
 
 import org.springframework.security.oauth2.common.DefaultOAuth2AccessToken;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableOAuth2Client;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 
 import com.money.api.security.UsuarioSistema;
 
 @SuppressWarnings("deprecation")
+@EnableOAuth2Client
 public class CustomTokenEnhancer implements TokenEnhancer{
 
 	@Override
