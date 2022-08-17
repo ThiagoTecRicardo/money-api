@@ -7,6 +7,7 @@ import { TableModule } from 'primeng/table';
 import { TabViewModule } from 'primeng/tabview';
 
 import { AppComponent } from './app.component';
+import {TooltipModule} from 'primeng/tooltip';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { AppComponent } from './app.component';
     InputTextModule,
     TableModule,
     TabViewModule,
+    TooltipModule,
 
   ],
   providers: [],
