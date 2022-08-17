@@ -76,3 +76,24 @@ label {
     margin: 1px;
   }
 }
+
+.col-nome-header {
+  width: 120px;
+  text-align: center !important;
+}
+
+.col-cidade-header {
+  width: 120px;
+  text-align: center !important;
+}
+
+.col-estado-header {
+  width: 120px;
+  text-align: center !important;
+}
+
+
+.col-status-header {
+  width: 120px;
+  text-align: center !important;
+}
