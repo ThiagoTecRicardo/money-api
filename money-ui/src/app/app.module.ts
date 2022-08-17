@@ -9,12 +9,14 @@ import { TabViewModule } from 'primeng/tabview';
 import { AppComponent } from './app.component';
 import {TooltipModule} from 'primeng/tooltip';
 import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LancamentosPesquisaComponent
+    LancamentosPesquisaComponent,
+    NavbarComponent
 
   ],
   imports: [
