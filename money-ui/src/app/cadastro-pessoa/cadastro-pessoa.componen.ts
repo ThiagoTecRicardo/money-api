@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastroPessoalComponent implements OnInit {
 
+
+
   constructor() { }
 
   ngOnInit(): void {
