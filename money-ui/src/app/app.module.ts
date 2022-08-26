@@ -11,9 +11,11 @@ import {InputTextareaModule} from 'primeng/inputtextarea';
 import { CalendarModule } from 'primeng/calendar';
 import { SelectButtonModule } from 'primeng/selectbutton';
 import { DropdownModule } from 'primeng/dropdown';
+import {TooltipModule} from 'primeng/tooltip';
+import {InputMaskModule} from 'primeng/inputmask';
+
 
 import { AppComponent } from './app.component';
-import {TooltipModule} from 'primeng/tooltip';
 import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.component';
@@ -48,8 +50,8 @@ import { CadastroPessoalComponent} from './cadastro-pessoa/cadastro-pessoa.compo
     CalendarModule,
     SelectButtonModule,
     DropdownModule,
-    CurrencyMaskModule
-
+    CurrencyMaskModule,
+    InputMaskModule
   ],
   providers: [],
   bootstrap: [AppComponent]
