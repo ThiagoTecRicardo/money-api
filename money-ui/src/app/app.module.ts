@@ -9,6 +9,7 @@ import { TabViewModule } from 'primeng/tabview';
 import {InputTextareaModule} from 'primeng/inputtextarea';
 import { CalendarModule } from 'primeng/calendar';
 import { SelectButtonModule } from 'primeng/selectbutton';
+import { DropdownModule } from 'primeng/dropdown';
 
 import { AppComponent } from './app.component';
 import {TooltipModule} from 'primeng/tooltip';
@@ -16,6 +17,7 @@ import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos
 import { NavbarComponent } from './navbar/navbar.component';
 import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.component';
 import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
+
 
 
 
@@ -42,7 +44,8 @@ import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-ca
     TabViewModule,
     TooltipModule,
     CalendarModule,
-    SelectButtonModule
+    SelectButtonModule,
+    DropdownModule
 
   ],
   providers: [],
