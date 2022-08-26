@@ -22,7 +22,7 @@
       </div>
       <div class="col-12 md:col-3 p-fluid">
         <label>Valor</label>
-        <input pInputText type="text" placeholder="0,00">
+        <input pInputText type="text" placeholder="0,00" currencyMask [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }" >
       </div>
       <div class="col-12 md:col-6 p-fluid">
         <label>Categoria {{ categoria.value }}</label>
