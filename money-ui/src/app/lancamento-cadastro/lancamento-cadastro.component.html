@@ -17,22 +17,15 @@
         <p-calendar dateFormat="dd/mm/yy" [showIcon]="true" inputId="icon"></p-calendar>
       </div>
       <div class="col-12 md:col-9 p-fluid">
-        <label>Descrição {{ descricao.errors | json }}</label>
+        <label>Descrição</label>
         <input pInputText type="text" name="descricao" ngModel #descricao="ngModel" required minlength="5">
 
-        <span *ngIf="descricao.hasError('required') && descricao.dirty" class="p-message p-message-error">
-          Informe uma descrição
-        </span>
-        <span *ngIf="descricao.hasError('minlength') && descricao.dirty" class="p-message p-message-error">
-          Mínimo de 5 caracteres.
-        </span>
-
-        <!--<p-message severity="error" text="Informe uma descrição"
-          *ngIf="descricao.hasError('required') && descricao.dirty"></p-message>
-        <p-message severity="error"
-          text="Mínimo de {{ descricao.errors?.minlength.requiredLength }} caracteres. Você digitou apenas {{ descricao.errors?.minlength.actualLength }}"
-          *ngIf="descricao.hasError('minlength') && descricao.dirty"></p-message>-->
+        <app-message [control]="descricao" error="required" text="Informe uma descrição"></app-message>
+        <app-message [control]="descricao" error="minlength"
+          text="Mínimo de {{ descricao.errors?.['minlength'].requiredLength }} caracteres. Você digitou apenas {{ descricao.errors?.['minlength'].actualLength }}">
+        </app-message>
       </div>
+
       <div class="col-12 md:col-3 p-fluid">
         <label>Valor</label>
         <input pInputText type="text" placeholder="0,00" currencyMask [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }" >

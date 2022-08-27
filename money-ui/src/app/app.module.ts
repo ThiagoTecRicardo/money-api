@@ -15,6 +15,7 @@ import { DropdownModule } from 'primeng/dropdown';
 import {TooltipModule} from 'primeng/tooltip';
 import {InputMaskModule} from 'primeng/inputmask';
 import { CurrencyMaskModule } from "ng2-currency-mask";
+import { ChipModule } from 'primeng/chip';
 
 
 import { AppComponent } from './app.component';
@@ -23,6 +24,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.component';
 import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
 import { CadastroPessoalComponent} from './cadastro-pessoa/cadastro-pessoa.componen';
+import { MessageComponent } from './message/message.component';
+
 
 
 
@@ -36,7 +39,8 @@ import { CadastroPessoalComponent} from './cadastro-pessoa/cadastro-pessoa.compo
     NavbarComponent,
     PessoasPesquisaComponent,
     LancamentoCadastroComponent,
-    CadastroPessoalComponent
+    CadastroPessoalComponent,
+    MessageComponent
 
 
   ],
@@ -55,7 +59,9 @@ import { CadastroPessoalComponent} from './cadastro-pessoa/cadastro-pessoa.compo
     SelectButtonModule,
     DropdownModule,
     CurrencyMaskModule,
-    InputMaskModule
+    InputMaskModule,
+   ChipModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
