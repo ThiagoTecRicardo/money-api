@@ -16,6 +16,7 @@ import {TooltipModule} from 'primeng/tooltip';
 import {InputMaskModule} from 'primeng/inputmask';
 import { CurrencyMaskModule } from "ng2-currency-mask";
 import { ChipModule } from 'primeng/chip';
+import {AvatarModule} from 'primeng/avatar';
 
 
 import { AppComponent } from './app.component';
@@ -60,7 +61,9 @@ import { MessageComponent } from './message/message.component';
     DropdownModule,
     CurrencyMaskModule,
     InputMaskModule,
-   ChipModule
+   ChipModule,
+   AvatarModule
+
 
   ],
   providers: [],
