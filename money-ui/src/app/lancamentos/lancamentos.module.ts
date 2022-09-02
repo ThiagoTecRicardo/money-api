@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { CurrencyMaskModule } from 'ng2-currency-mask';
 
 import { ButtonModule } from 'primeng/button';
 import { CalendarModule } from 'primeng/calendar';
@@ -32,6 +33,7 @@ import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos
     CalendarModule,
     SelectButtonModule,
     DropdownModule,
+    CurrencyMaskModule
   ],
   declarations: [
     LancamentoCadastroComponent,
@@ -40,7 +42,8 @@ import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos
   ],
   exports: [
     LancamentoCadastroComponent,
-    LancamentosPesquisaComponent
+    LancamentosPesquisaComponent,
+
     ]
 
 })

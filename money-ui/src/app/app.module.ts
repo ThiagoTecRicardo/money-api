@@ -44,7 +44,7 @@ import { LancamentosModule } from './lancamentos/lancamentos.module';
 
     CadastroPessoalComponent,
     MessageComponent,
-    LancamentosModule,
+
 
 
   ],
@@ -54,7 +54,7 @@ import { LancamentosModule } from './lancamentos/lancamentos.module';
     BrowserAnimationsModule,
     FormsModule,
 
-
+    LancamentosModule,
 
     ButtonModule,
     InputTextModule,
@@ -67,8 +67,8 @@ import { LancamentosModule } from './lancamentos/lancamentos.module';
     DropdownModule,
     CurrencyMaskModule,
     InputMaskModule,
-   ChipModule,
-   AvatarModule
+    ChipModule,
+    AvatarModule
 
 
   ],
