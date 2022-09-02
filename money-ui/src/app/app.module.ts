@@ -20,12 +20,14 @@ import {AvatarModule} from 'primeng/avatar';
 
 
 import { AppComponent } from './app.component';
-import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
+
 import { NavbarComponent } from './navbar/navbar.component';
 import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.component';
-import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
 import { CadastroPessoalComponent} from './cadastro-pessoa/cadastro-pessoa.componen';
 import { MessageComponent } from './message/message.component';
+import { LancamentosModule } from './lancamentos/lancamentos.module';
+
+
 
 
 
@@ -36,19 +38,23 @@ import { MessageComponent } from './message/message.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LancamentosPesquisaComponent,
+
     NavbarComponent,
     PessoasPesquisaComponent,
-    LancamentoCadastroComponent,
+
     CadastroPessoalComponent,
-    MessageComponent
+    MessageComponent,
+    LancamentosModule,
 
 
   ],
   imports: [
-    BrowserModule,
+
+  BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
+
+
 
     ButtonModule,
     InputTextModule,

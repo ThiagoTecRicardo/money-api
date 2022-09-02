@@ -106,3 +106,7 @@ label {
   width: 120px;
   text-align: center !important;
 }
+
+form .p-button {
+  margin-right: .25em;
+}
