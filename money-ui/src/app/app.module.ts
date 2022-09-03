@@ -3,31 +3,28 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
-import {AvatarModule} from 'primeng/avatar';
-
-
 import { AppComponent } from './app.component';
 import { PessoasModule } from './pessoas/pessoas.module';
-import { NavbarComponent } from './navbar/navbar.component';
-import { MessageComponent } from './shared/message/message.component';
 import { LancamentosModule } from './lancamentos/lancamentos.module';
+import { CoreModule } from './core/core.module';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
 
 
   ],
   imports: [
-    BrowserModule,
+
+  BrowserModule,
     BrowserAnimationsModule,
 
     LancamentosModule,
     PessoasModule,
-    AvatarModule
+    CoreModule,
+
 
 
   ],
