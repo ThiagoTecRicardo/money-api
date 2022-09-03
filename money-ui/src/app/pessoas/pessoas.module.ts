@@ -8,9 +8,11 @@ import { InputTextModule } from 'primeng/inputtext';
 import { TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
 
+
 import { CadastroPessoalComponent } from './cadastro-pessoa/cadastro-pessoa.componen';
 import { PessoasGridComponent } from './pessoas-grid/pessoas-grid-component';
 import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -24,7 +26,8 @@ import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.co
     ButtonModule,
     TableModule,
     TooltipModule,
-    InputMaskModule
+    InputMaskModule,
+    SharedModule
   ],
   declarations: [
     PessoasGridComponent,

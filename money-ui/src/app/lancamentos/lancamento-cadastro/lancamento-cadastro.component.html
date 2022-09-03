@@ -15,7 +15,7 @@
         <p-calendar name="vencimento" dateFormat="dd/mm/yy" [inline]="false" [readonlyInput]="false" [showIcon]="false"
           ngModel #vencimento="ngModel" [required]="true"></p-calendar>
 
-        <!-- <app-message [control]="vencimento" error="required" text="Informe uma data de vencimento"></app-message> -->
+        <app-message [control]="vencimento" error="required" text="Informe uma data de vencimento"></app-message>
       </div>
       <div class="col-6 md:col-3 p-fluid">
         <label>{{ tipo.value === 'RECEITA' ? 'Recebimento' : 'Pagamento' }}</label>
@@ -25,10 +25,10 @@
         <label>Descrição</label>
         <input pInputText type="text" name="descricao" ngModel #descricao="ngModel" [required]="true" minlength="5">
 
-        <!-- <app-message [control]="descricao" error="required" text="Informe uma descrição"></app-message>
+        <app-message [control]="descricao" error="required" text="Informe uma descrição"></app-message>
         <app-message [control]="descricao" error="minlength"
           text="Mínimo de {{ descricao.errors?.['minlength'].requiredLength }} caracteres. Você digitou apenas {{ descricao.errors?.['minlength'].actualLength }}">
-        </app-message> -->
+        </app-message>
       </div>
 
       <div class="col-12 md:col-3 p-fluid">
@@ -39,7 +39,7 @@
       </div>
       <div class="col-12 md:col-6 p-fluid">
         <label>Categoria</label>
-        <p-dropdown [options]="categorias" placeholder="Selecione" #categoria [required]="true"></p-dropdown>
+        <p-dropdown [options]="categorias" placeholder="Selecione"  [filter]="true" #categoria [required]="true"></p-dropdown>
       </div>
       <div class="col-12 md:col-6 p-fluid">
         <label>Pessoa</label>
