@@ -13,16 +13,15 @@ export class LancamentosPesquisaComponent implements OnInit{
 
   lancamentos = [];
 
-  constructor(private lacamentoService: LancamentoService){}
+  constructor(private lancamentoService: LancamentoService){}
 
   ngOnInit(): void {
-    this.pequisar();
+    this.pesquisar();
   }
 
-
-  pequisar(){
-    this.lacamentoService.pesquisar()
-    .then( () => null);
+  pesquisar(): void {
+    this.lancamentoService.pesquisar()
+      .then(lancamentos => this.lancamentos = lancamentos);
   }
 
 }

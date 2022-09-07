@@ -7,7 +7,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class LancamentoService {
 
-  lancamentosUrl = 'localhost:8080/lancamentos';
+  lancamentosUrl = 'http://localhost:8080/lancamentos';
 
   constructor(private http: HttpClient) { }
 
@@ -15,20 +15,13 @@ export class LancamentoService {
 
     const headers = new HttpHeaders()
 
-      .append('Authorization', 'Basic YWRtaW5AYWxnYW1vbmV5LmNvbTphZG1pbg==');
-
-
+      .append('Authorization', 'Basic dGhpYWdvLnNpbC5yaWNhcmRvQGdtYWlsLmNvbTphZG1pbg==');
 
     return this.http.get(`${this.lancamentosUrl}?resumo`, { headers })
-
       .toPromise()
-
-      .then((response : any) => response['content']);
+      .then((response: any) => response['content']);
 
   }
 
-}
-function append(arg0: string, arg1: string) {
-  throw new Error('Function not implemented.');
 }
 
