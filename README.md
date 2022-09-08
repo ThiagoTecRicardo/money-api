@@ -11,4 +11,4 @@ Angular 14 to Frontend.
 
 ## Instructions to use backend:
 
-Make the clone this repo: git clone <url-repo>
+Make the clone this repo: git clone https://github.com/ThiagoTecRicardo/money-api.git
