@@ -16,7 +16,6 @@ import { TooltipModule } from 'primeng/tooltip';
 
 
 import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
-import { LancamentosGridComponent } from './lancamentos-grid/lancamentos-grid-component';
 import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
 import { SharedModule } from '../shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
@@ -44,7 +43,6 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     LancamentoCadastroComponent,
     LancamentosPesquisaComponent,
-    LancamentosGridComponent
   ],
   exports: [
     LancamentoCadastroComponent,
