@@ -9,19 +9,22 @@
       "name": "money.seguranca",
       "type": "com.money.api.config.property.MoneyApiProperty$Seguranca",
       "sourceType": "com.money.api.config.property.MoneyApiProperty",
-      "sourceMethod": "public com.money.api.config.property.MoneyApiProperty.Seguranca getSeguranca() "
+      "sourceMethod": "getSeguranca()"
     }
   ],
   "properties": [
     {
       "name": "money.origin-permitida",
       "type": "java.lang.String",
-      "sourceType": "com.money.api.config.property.MoneyApiProperty"
+      "description": "A description for 'money.origin-permitida'",
+      "sourceType": "com.money.api.config.property.MoneyApiProperty",
+      "defaultValue": "http:\/\/localhost:4200"
     },
     {
       "name": "money.seguranca.enable-https",
       "type": "java.lang.Boolean",
-      "sourceType": "com.money.api.config.property.MoneyApiProperty$Seguranca"
+      "sourceType": "com.money.api.config.property.MoneyApiProperty$Seguranca",
+      "defaultValue": false
     }
   ],
   "hints": []
