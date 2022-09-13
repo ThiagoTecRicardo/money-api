@@ -2,6 +2,9 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MessageService } from 'primeng/api';
+import { ToastModule } from 'primeng/toast';
+
 
 
 import { AppComponent } from './app.component';
@@ -29,12 +32,14 @@ import { LancamentoService } from './lancamentos/lancamento.service';
     LancamentosModule,
     PessoasModule,
     CoreModule,
-    HttpClientModule
+    HttpClientModule,
+
+    ToastModule
 
 
 
   ],
-  providers: [LancamentoService],
+  providers: [LancamentoService, MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
