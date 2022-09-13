@@ -3,6 +3,7 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 
 
 import * as moment from 'moment';
+import { InputNumberModule } from 'primeng/inputnumber';
 
 export class LancamentoFiltro {
   descricao?: string;
@@ -60,6 +61,15 @@ export class LancamentoService {
 
         return resultado;
       });
+  }
+
+  excluir(codigo: number): Promise<any> {
+    const headers = new HttpHeaders()
+      .append('Authorization', 'Basic dGhpYWdvLnNpbC5yaWNhcmRvQGdtYWlsLmNvbTphZG1pbg==');
+
+      return this.http.delete(`${this.lancamentosUrl}/${codigo}`, { headers})
+      .toPromise()
+      .then( () => null);
   }
 
 }
