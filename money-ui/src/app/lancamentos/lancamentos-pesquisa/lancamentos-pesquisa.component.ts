@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { LazyLoadEvent, MessageService } from 'primeng/api';
+import { LazyLoadEvent, MessageService, ConfirmationService } from 'primeng/api';
 import { LancamentoService, LancamentoFiltro } from '../lancamento.service';
 
 
@@ -17,7 +17,8 @@ export class LancamentosPesquisaComponent implements OnInit{
 
   constructor(
     private lancamentoService: LancamentoService,
-    private messageService: MessageService){}
+    private messageService: MessageService,
+    private confirmationService: ConfirmationService){}
 
   ngOnInit(): void {
     //this.pesquisar();
@@ -37,6 +38,15 @@ export class LancamentosPesquisaComponent implements OnInit{
   aoMudarPagina(event: LazyLoadEvent) {
     const pagina = event.first! / event.rows!;
     this.pesquisar(pagina);
+  }
+
+  confirmarExclusao(lancamento: any): void {
+    this.confirmationService.confirm({
+      message: 'Tem certeza que deseja excluir?',
+      accept: () => {
+        this.excluir(lancamento);
+      }
+    });
   }
 
   excluir(lancamento: any) {
