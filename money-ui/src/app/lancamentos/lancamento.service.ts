@@ -1,9 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 
-
+import { Lancamento } from '../core/model';
 import * as moment from 'moment';
-import { InputNumberModule } from 'primeng/inputnumber';
 
 export class LancamentoFiltro {
   descricao?: string;
@@ -20,7 +19,7 @@ export class LancamentoService {
 
 
 
-  lancamentosUrl = 'http://localhost:8080/lancamentos';
+  lancamentosUrl = 'http://localhost:8080/lancamentos/';
 
   constructor(private http: HttpClient) { }
 
@@ -67,9 +66,19 @@ export class LancamentoService {
     const headers = new HttpHeaders()
       .append('Authorization', 'Basic dGhpYWdvLnNpbC5yaWNhcmRvQGdtYWlsLmNvbTphZG1pbg==');
 
-      return this.http.delete(`${this.lancamentosUrl}/${codigo}`, { headers})
+      return this.http.delete(`${this.lancamentosUrl}/${codigo}`, { headers })
       .toPromise()
       .then( () => null);
+  }
+
+  adicionar(lancamento: Lancamento): Promise<Lancamento | any>{
+    const headers = new HttpHeaders()
+    .append('Authorization', 'Basic dGhpYWdvLnNpbC5yaWNhcmRvQGdtYWlsLmNvbTphZG1pbg==')
+    .append('Content-Type', 'application/json');
+
+    return this.http.post<Lancamento>(this.lancamentosUrl, lancamento, { headers })
+    .toPromise();
+
   }
 
 }
