@@ -25,20 +25,21 @@
         <label>Descrição</label>
         <input pInputText type="text" name="descricao" ngModel #descricao="ngModel" [required]="true" minlength="5">
 
-        <app-message [control]="descricao" error="required" text="Informe uma descrição"></app-message>
-        <app-message [control]="descricao" error="minlength"
+        <app-message [control]="descricao.control" error="required" text="Informe uma descrição"></app-message>
+        <app-message [control]="descricao.control" error="minlength"
           text="Mínimo de {{ descricao.errors?.['minlength'].requiredLength }} caracteres. Você digitou apenas {{ descricao.errors?.['minlength'].actualLength }}">
         </app-message>
       </div>
+
 
       <div class="col-12 md:col-3 p-fluid">
         <label>Valor</label>
         <p-inputNumber mode="currency" currency="BRL" locale="pt-BR" placeholder="0,00" ngModel name="valor" #valor="ngModel"
         [required]="true"></p-inputNumber>
       </div>
-      <div class="col-12 md:col-6 p-fluid">
+     <div class="col-12 md:col-6 p-fluid">
         <label>Categoria</label>
-        <p-dropdown [options]="categorias" placeholder="Selecione"  [filter]="true" #categoria [required]="true"></p-dropdown>
+        <p-dropdown [options]="categorias" placeholder="Selecione" #categoria [required]="true"></p-dropdown>
       </div>
       <div class="col-12 md:col-6 p-fluid">
         <label>Pessoa</label>
