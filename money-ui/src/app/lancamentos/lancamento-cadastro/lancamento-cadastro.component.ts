@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 import { PessoaService } from 'src/app/pessoas/pessoa.service';
 
 
 
 import { CategoriaService } from '../../categorias/categoria.service';
 import { ErrorHandlerService } from '../../core/error-handler.service';
+import { Lancamento } from '../../core/model';
 
 @Component({
   selector: 'app-lancamento-cadastro',
@@ -13,14 +15,19 @@ import { ErrorHandlerService } from '../../core/error-handler.service';
 })
 export class LancamentoCadastroComponent implements OnInit {
 
+  categorias: any[] = [];
+
+  pessoas: any[] =  [];
+
+  lancamento = new Lancamento();
+
+
+
   tipos = [
     { label: 'Receita', value: 'RECEITA' },
     { label: 'Despesa', value: 'DESPESA' },
   ];
 
-  categorias: any[] = [];
-
-  pessoas: any[] =  [];
 
   constructor(
     private categoriaService: CategoriaService,
@@ -33,6 +40,10 @@ export class LancamentoCadastroComponent implements OnInit {
     this.carregarCategorias();
     this.carregarPessoas();
   }
+
+  salvar(lancamentoForm: NgForm) {
+    console.log(this.lancamento);
+}
 
   carregarCategorias(){
     return this.categoriaService.listarTodas()
