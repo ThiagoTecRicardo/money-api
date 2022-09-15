@@ -16,6 +16,7 @@ import { CoreModule } from './core/core.module';
 import { LancamentosPesquisaComponent } from './lancamentos/lancamentos-pesquisa/lancamentos-pesquisa.component';
 import { LancamentoCadastroComponent } from './lancamentos/lancamento-cadastro/lancamento-cadastro.component';
 import { PessoasPesquisaComponent } from './pessoas/pessoas-pesquisa/pessoas-pesquisa.component';
+import { CadastroPessoalComponent } from './pessoas/cadastro-pessoa/cadastro-pessoa.componen';
 
 
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
@@ -26,7 +27,8 @@ registerLocaleData(localePt);
 const routes: Routes = [
   {path: 'lancamentos', component: LancamentosPesquisaComponent},
   {path: 'lancamentos/novo', component: LancamentoCadastroComponent},
-  {path: 'pessoas', component: PessoasPesquisaComponent}
+  {path: 'pessoas', component: PessoasPesquisaComponent},
+  {path: 'pessoas/nova', component: CadastroPessoalComponent}
 
 ]
 
@@ -37,6 +39,7 @@ const routes: Routes = [
 
   ],
   imports: [
+
 
     TranslateModule.forRoot({
       loader: {
