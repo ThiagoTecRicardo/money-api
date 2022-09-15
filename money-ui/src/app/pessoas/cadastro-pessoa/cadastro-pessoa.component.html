@@ -14,7 +14,7 @@
         <app-message [control]="nome" error="required"
           text="Informe o nome"></app-message>
         <app-message [control]="nome" error="minlength"
-          text="Mínimo de {{ nome.errors?.['minlength'].requiredLength }} caracteres"></app-message>
+          text="Mínimo de {{ nome.errors?.['minlength']?.requiredLength }} caracteres"></app-message>
       </div>
 
       <div class="col-12 md:col-9 p-fluid">
