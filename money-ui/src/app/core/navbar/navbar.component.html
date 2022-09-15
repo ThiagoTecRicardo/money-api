@@ -10,8 +10,8 @@
   <ul class="navbar-menu" [hidden]="!exibindoMenu" >
     <li class="navbar-usuario "><p-avatar  shape="circle" size="large" label="TR" [style]="{'background-color': '#326fd1', 'color': '#ffffff'}"></p-avatar>
       </li>
-    <li class="navbar-menuitem"> <a routerLink="lancamentos">Lançamentos</a></li>
-    <li class="navbar-menuitem"><a routerLink="pessoas">Pessoas</a></li>
+    <li class="navbar-menuitem" routerLinkActive="ativo"> <a routerLink="lancamentos">Lançamentos</a></li>
+    <li class="navbar-menuitem" routerLinkActive="ativo"><a routerLink="pessoas">Pessoas</a></li>
     <li class="navbar-menuitem"><a routerLink="#">Logout</a></li>
   </ul>
 </nav>
