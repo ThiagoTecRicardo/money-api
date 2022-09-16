@@ -21,6 +21,7 @@ import { PaginaNaoEncontradaComponent } from './core/pagina-nao-encontrada.compo
 import { AppRoutingModule } from './app-routing-module';
 
 
+
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
   return new TranslateHttpLoader(http);
 }
@@ -41,6 +42,7 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
+
 
 
   ],

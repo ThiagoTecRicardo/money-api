@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LancamentoService } from '../lancamentos/lancamento.service';
 
 
+
 import { AvatarModule } from 'primeng/avatar';
 import { ToastModule } from 'primeng/toast';
 import { ConfirmDialogModule } from 'primeng/confirmdialog';
@@ -26,12 +27,14 @@ import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada.component'
 
 
 
+
    CommonModule,
     AvatarModule,
     RouterModule,
 
     ToastModule,
-    ConfirmDialogModule
+    ConfirmDialogModule,
+
 
   ],
   exports:[

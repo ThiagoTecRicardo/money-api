@@ -42,7 +42,7 @@ import { LancamentosRoutingModule } from './lancamentos-routing-module';
     CurrencyMaskModule,
 
     SharedModule,
-    LancamentosRoutingModule
+    LancamentosRoutingModule,
   ],
   declarations: [
     LancamentoCadastroComponent,

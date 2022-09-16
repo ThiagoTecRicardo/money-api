@@ -1,8 +1,9 @@
 <div class="container">
   <form #pessoasForm="ngForm" autocomplete="off" (ngSubmit)="salvar(pessoasForm)">
+
     <div class="grid">
       <div class="col-12">
-        <h1>Nova Pessoa</h1>
+        <h1>{{ editando ? 'Edição de' : 'Nova' }} Pessoa</h1>
       </div>
 
       <div class="col-12 p-fluid">
@@ -10,9 +11,8 @@
         <input pInputText type="text" name="nome" [(ngModel)]="pessoa.nome" #nome="ngModel" [required]="true"
           minlength="5">
 
-        <app-message [control]="nome" error="required"
-          text="Informe o nome"></app-message>
-        <app-message [control]="nome" error="minlength"
+        <app-message [control]="nome.control" error="required" text="Informe o nome"></app-message>
+        <app-message [control]="nome.control" error="minlength"
           text="Mínimo de {{ nome.errors?.['minlength']?.requiredLength }} caracteres"></app-message>
       </div>
 
@@ -31,7 +31,6 @@
 
         <app-message [control]="numero.control" error="required" text="Informe o número"></app-message>
       </div>
-
 
       <div class="col-12 md:col-4 p-fluid">
         <label>Complemento</label>
@@ -72,9 +71,9 @@
 
       <div class="col-12">
         <button pButton type="submit" label="Salvar" [disabled]="pessoasForm.invalid"></button>
-        <button pButton type="button" label="Novo" class="p-button-info"></button>
+        <button pButton type="button" label="Novo" class="p-button-info" (click)="nova(pessoasForm)"></button>
 
-        <a routerLink="/pessoas">Voltar para a pesquisa</a>
+        <a [routerLink]="['/pessoas']">Voltar para a pesquisa</a>
       </div>
     </div>
 
