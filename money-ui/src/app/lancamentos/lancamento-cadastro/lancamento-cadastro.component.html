@@ -44,7 +44,7 @@
 
       <div class="col-12 md:col-6 p-fluid">
         <label>Categoria</label>
-        <p-dropdown [options]="categorias" placeholder="Selecione" [(ngModel)]="lancamento.categoria.codigo"
+        <p-dropdown [options]="categorias" [filter]="true" placeholder="Selecione" [(ngModel)]="lancamento.categoria.codigo"
           name="categoria" #categoria [required]="true"></p-dropdown>
       </div>
 
