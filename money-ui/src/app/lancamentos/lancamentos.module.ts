@@ -1,5 +1,4 @@
-
-import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -20,16 +19,15 @@ import { TooltipModule } from 'primeng/tooltip';
 import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
 import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
 import { SharedModule } from '../shared/shared.module';
-import { HttpClientModule } from '@angular/common/http';
+import { LancamentosRoutingModule } from './lancamentos-routing-module';
 
 
 @NgModule({
   imports: [
-
-CommonModule,
+    CommonModule,
     FormsModule,
     HttpClientModule,
-    RouterModule,
+
 
 
     InputNumberModule,
@@ -43,7 +41,8 @@ CommonModule,
     DropdownModule,
     CurrencyMaskModule,
 
-    SharedModule
+    SharedModule,
+    LancamentosRoutingModule
   ],
   declarations: [
     LancamentoCadastroComponent,
