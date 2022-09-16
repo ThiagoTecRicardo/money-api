@@ -4,6 +4,7 @@ import { PessoaFiltro, PessoaService } from '../pessoa.service';
 
 import { ConfirmationService, LazyLoadEvent, MessageService } from 'primeng/api';
 import { ErrorHandlerService } from 'src/app/core/error-handler.service';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-pessoas-pesquisa',
@@ -20,8 +21,15 @@ export class PessoasPesquisaComponent{
     private pessoaService: PessoaService,
     private messageService: MessageService,
     private errorHandler: ErrorHandlerService,
-    private confirmationService: ConfirmationService
+    private confirmationService: ConfirmationService,
+    private title: Title
     ) { }
+
+    ngOnInit(): void {
+
+      this.title.setTitle('Pesquisa de pessoas');
+      //this.pesquisar();
+    }
 
   pesquisar(pagina: number = 0): void {
     this.filtro.pagina = pagina;
