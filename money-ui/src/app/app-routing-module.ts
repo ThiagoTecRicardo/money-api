@@ -16,7 +16,7 @@ const routes: Routes = [
   {path: 'pessoas/nova', component: CadastroPessoalComponent},
   {path: 'pagina-nao-encontrada', component: PaginaNaoEncontradaComponent},
   {path: '**', redirectTo: 'pagina-nao-encontrada'},
-  {path: 'login', component: LoginFormComponent}
+  // {path: 'login', component: LoginFormComponent}
 
 ]
 

@@ -19,6 +19,8 @@ import { PessoasPesquisaComponent } from './pessoas/pessoas-pesquisa/pessoas-pes
 import { CadastroPessoalComponent } from './pessoas/cadastro-pessoa/cadastro-pessoa.componen';
 import { PaginaNaoEncontradaComponent } from './core/pagina-nao-encontrada.component';
 import { AppRoutingModule } from './app-routing-module';
+import { LoginFormComponent } from './seguranca/login-form/login-form.component';
+import { SegurancaModule } from './seguranca/seguranca.module';
 
 
 
@@ -35,7 +37,9 @@ const routes: Routes = [
   {path: 'pessoas', component: PessoasPesquisaComponent},
   {path: 'pessoas/nova', component: CadastroPessoalComponent},
   {path: 'pagina-nao-encontrada', component: PaginaNaoEncontradaComponent},
-  {path: '**', redirectTo: 'pagina-nao-encontrada'}
+  {path: '**', redirectTo: 'pagina-nao-encontrada'},
+
+
 
 ]
 
@@ -47,7 +51,8 @@ const routes: Routes = [
 
   ],
   imports: [
-  TranslateModule.forRoot({
+
+TranslateModule.forRoot({
       loader: {
           provide: TranslateLoader,
           useFactory: HttpLoaderFactory,
@@ -63,6 +68,7 @@ const routes: Routes = [
     PessoasModule,
     CoreModule,
     HttpClientModule,
+    SegurancaModule,
     AppRoutingModule
 
   ],
