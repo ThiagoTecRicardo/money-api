@@ -18,6 +18,7 @@ import { LancamentoCadastroComponent } from './lancamentos/lancamento-cadastro/l
 import { PessoasPesquisaComponent } from './pessoas/pessoas-pesquisa/pessoas-pesquisa.component';
 import { CadastroPessoalComponent } from './pessoas/cadastro-pessoa/cadastro-pessoa.componen';
 import { PaginaNaoEncontradaComponent } from './core/pagina-nao-encontrada.component';
+import { AppRoutingModule } from './app-routing-module';
 
 
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
@@ -44,10 +45,7 @@ const routes: Routes = [
 
   ],
   imports: [
-
-
-
-    TranslateModule.forRoot({
+  TranslateModule.forRoot({
       loader: {
           provide: TranslateLoader,
           useFactory: HttpLoaderFactory,
@@ -63,6 +61,7 @@ const routes: Routes = [
     PessoasModule,
     CoreModule,
     HttpClientModule,
+    AppRoutingModule
 
   ],
   providers: [],
