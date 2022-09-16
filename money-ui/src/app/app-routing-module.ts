@@ -5,6 +5,7 @@ import { LancamentoCadastroComponent } from "./lancamentos/lancamento-cadastro/l
 import { LancamentosPesquisaComponent } from "./lancamentos/lancamentos-pesquisa/lancamentos-pesquisa.component";
 import { CadastroPessoalComponent } from "./pessoas/cadastro-pessoa/cadastro-pessoa.componen";
 import { PessoasPesquisaComponent } from "./pessoas/pessoas-pesquisa/pessoas-pesquisa.component";
+import { LoginFormComponent } from './seguranca/login-form/login-form.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'lancamentos', pathMatch: 'full'},
@@ -14,14 +15,16 @@ const routes: Routes = [
   {path: 'pessoas', component: PessoasPesquisaComponent},
   {path: 'pessoas/nova', component: CadastroPessoalComponent},
   {path: 'pagina-nao-encontrada', component: PaginaNaoEncontradaComponent},
-  {path: '**', redirectTo: 'pagina-nao-encontrada'}
+  {path: '**', redirectTo: 'pagina-nao-encontrada'},
+  {path: 'login', component: LoginFormComponent}
 
 ]
 
 @NgModule({
 
   imports: [
-    RouterModule.forRoot(routes),
+
+  RouterModule.forRoot(routes),
   ],
   exports: [RouterModule]
 })
