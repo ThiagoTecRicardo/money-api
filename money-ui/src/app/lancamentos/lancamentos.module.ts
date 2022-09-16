@@ -49,11 +49,7 @@ CommonModule,
     LancamentoCadastroComponent,
     LancamentosPesquisaComponent,
   ],
-  exports: [
-    LancamentoCadastroComponent,
-    LancamentosPesquisaComponent,
-
-    ]
+  exports: []
 
 })
 
