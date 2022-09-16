@@ -15,11 +15,13 @@ import { CadastroPessoalComponent } from './cadastro-pessoa/cadastro-pessoa.comp
 
 import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.component';
 import { SharedModule } from '../shared/shared.module';
+import { PessoasRoutingModule } from './pessoas-routing-module';
 
 
 
 @NgModule({
    imports: [
+
 
     CommonModule,
     FormsModule,
@@ -31,6 +33,7 @@ import { SharedModule } from '../shared/shared.module';
     TooltipModule,
     InputMaskModule,
     SharedModule,
+    PessoasRoutingModule
   ],
   declarations: [
 
