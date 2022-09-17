@@ -12,6 +12,7 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { SegurancaRoutingModule } from './seguranca-routing.module';
 import { MoneyHttpInterceptor } from './money-http-interceptor';
 import { AuthGuard } from './auth.guard';
+import { environment } from 'src/environments/environment';
 
 
 export function tokenGetter(): string {
@@ -30,8 +31,8 @@ export function tokenGetter(): string {
     JwtModule.forRoot({
       config: {
         tokenGetter,
-        allowedDomains: ['localhost:8080'],
-        disallowedRoutes: ['http://localhost:8080/oauth/token']
+        allowedDomains: environment.tokenAllowedDomains,
+        disallowedRoutes: environment.tokenDisallowedRoutes
       }
     }),
 
