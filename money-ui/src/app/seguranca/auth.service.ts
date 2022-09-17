@@ -15,14 +15,13 @@ export class AuthService {
 
   constructor(
     private http: HttpClient,
-    private title: Title,
     private jwtHelper: JwtHelperService
     ) {
       this.carregarToken();
     }
 
     ngOnInit() {
-      this.title.setTitle('Tela de acesso');
+
     }
 
   login(usario: string, senha : string): Promise<void> {
