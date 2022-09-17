@@ -3,6 +3,7 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 
 import { Lancamento } from '../core/model';
 import * as moment from 'moment';
+import { environment } from 'src/environments/environment';
 
 
 export class LancamentoFiltro {
@@ -18,11 +19,14 @@ export class LancamentoFiltro {
 })
 export class LancamentoService {
 
+  lancamentosUrl: string;
 
+  constructor(
+    private http: HttpClient,
 
-  lancamentosUrl = 'http://localhost:8080/lancamentos';
-
-  constructor(private http: HttpClient) { }
+  ) {
+    this.lancamentosUrl = `${environment.apiUrl}/lancamentos`
+  }
 
   pesquisar(filtro: LancamentoFiltro): Promise<any> {
 
