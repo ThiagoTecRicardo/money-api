@@ -2,19 +2,20 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { Title } from '@angular/platform-browser';
+import { TranslateService } from '@ngx-translate/core';
 
 import { ErrorHandlerService } from './error-handler.service';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LancamentoService } from '../lancamentos/lancamento.service';
-
+import { AuthService } from '../seguranca/auth.service';
 
 
 import { AvatarModule } from 'primeng/avatar';
 import { ToastModule } from 'primeng/toast';
 import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { ConfirmationService, MessageService } from 'primeng/api';
-import { TranslateService } from '@ngx-translate/core';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada.component';
+
 
 
 
@@ -24,6 +25,7 @@ import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada.component'
     PaginaNaoEncontradaComponent
   ],
   imports: [
+
 
 
 
@@ -49,6 +51,7 @@ import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada.component'
       ConfirmationService,
       TranslateService,
       Title,
+      AuthService,
 
     { provide: LOCALE_ID, useValue: 'pt-BR'},
     ]
