@@ -33,14 +33,19 @@ export class AuthService {
     const body = `username=${usario}&password=${senha}&grant_type=password`;
 
     return this.http.post(this.oauthTokenUrl, body, { headers })
-    .toPromise()
-    .then( (response: any) => {
-      console.log(response);
-      this.armazenarToken(response['access_token']);
-    })
-    .catch(response => {
-      console.log(response)
-    });
+      .toPromise()
+      .then((response: any) => {
+        this.armazenarToken(response['access_token']);
+      })
+      .catch(response => {
+        if (response.status === 400) {
+          if (response.error.error === 'invalid_grant') {
+            return Promise.reject('Usuário ou senha inválida!');
+          }
+        }
+
+        return Promise.reject(response);
+      });
   }
 
   public armazenarToken(token: string) {
