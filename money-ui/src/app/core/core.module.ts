@@ -2,7 +2,7 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { Title } from '@angular/platform-browser';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
 
 
 
@@ -18,23 +18,33 @@ import { ToastModule } from 'primeng/toast';
 import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { ConfirmationService, MessageService } from 'primeng/api';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada.component';
-
-
+import { NaoAutorizadoComponent } from './nao-autorizado.component';
+import { HttpLoaderFactory } from '../app.module';
+import { HttpClient } from '@angular/common/http';
 
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    PaginaNaoEncontradaComponent
+    PaginaNaoEncontradaComponent,
+    NaoAutorizadoComponent
+
   ],
   imports: [
 
-   CommonModule,
-    AvatarModule,
+    CommonModule,
     RouterModule,
 
     ToastModule,
     ConfirmDialogModule,
+
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
 
 
   ],

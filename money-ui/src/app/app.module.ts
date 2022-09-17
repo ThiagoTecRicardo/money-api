@@ -13,13 +13,10 @@ import { AppComponent } from './app.component';
 import { PessoasModule } from './pessoas/pessoas.module';
 import { LancamentosModule } from './lancamentos/lancamentos.module';
 import { CoreModule } from './core/core.module';
-import { LancamentosPesquisaComponent } from './lancamentos/lancamentos-pesquisa/lancamentos-pesquisa.component';
-import { LancamentoCadastroComponent } from './lancamentos/lancamento-cadastro/lancamento-cadastro.component';
-import { PessoasPesquisaComponent } from './pessoas/pessoas-pesquisa/pessoas-pesquisa.component';
-import { CadastroPessoalComponent } from './pessoas/cadastro-pessoa/cadastro-pessoa.componen';
+
 import { PaginaNaoEncontradaComponent } from './core/pagina-nao-encontrada.component';
 import { AppRoutingModule } from './app-routing-module';
-import { LoginFormComponent } from './seguranca/login-form/login-form.component';
+
 import { SegurancaModule } from './seguranca/seguranca.module';
 
 
@@ -29,7 +26,14 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
 }
 registerLocaleData(localePt);
 
+const routes: Routes = [
+  {path: '', redirectTo: 'lancamentos', pathMatch: 'full'},
+  {path: 'pagina-nao-encontrada', component: PaginaNaoEncontradaComponent},
+  {path: '**', redirectTo: 'pagina-nao-encontrada'},
 
+
+
+]
 
 @NgModule({
   declarations: [
@@ -50,7 +54,7 @@ TranslateModule.forRoot({
 
     BrowserModule,
     BrowserAnimationsModule,
-
+    RouterModule.forRoot(routes),
 
     LancamentosModule,
     PessoasModule,
