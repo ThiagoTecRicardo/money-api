@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -16,15 +17,18 @@ import { TooltipModule } from 'primeng/tooltip';
 
 
 import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
-import { LancamentosGridComponent } from './lancamentos-grid/lancamentos-grid-component';
 import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
 import { SharedModule } from '../shared/shared.module';
+import { LancamentosRoutingModule } from './lancamentos-routing-module';
 
 
 @NgModule({
   imports: [
-  CommonModule,
+    CommonModule,
     FormsModule,
+    HttpClientModule,
+
+
 
     InputNumberModule,
     InputTextModule,
@@ -37,18 +41,14 @@ import { SharedModule } from '../shared/shared.module';
     DropdownModule,
     CurrencyMaskModule,
 
-    SharedModule
+    SharedModule,
+    LancamentosRoutingModule,
   ],
   declarations: [
     LancamentoCadastroComponent,
     LancamentosPesquisaComponent,
-    LancamentosGridComponent
   ],
-  exports: [
-    LancamentoCadastroComponent,
-    LancamentosPesquisaComponent,
-
-    ]
+  exports: []
 
 })
 

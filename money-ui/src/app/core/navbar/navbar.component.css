@@ -1,6 +1,7 @@
 .navbar {
   padding: 20px 0 10px;
   background-color: #1e94d2;
+
 }
 
 .navbar-toggle {
@@ -46,4 +47,8 @@
 .navbar-menuitem a:hover {
   color: #fff;
 
+}
+
+.navbar-menuitem.ativo{
+  background-color: #494951;
 }

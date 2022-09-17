@@ -1,5 +1,15 @@
-<app-navbar></app-navbar>
-<!-- <app-cadastro-pessoal></app-cadastro-pessoal> -->
-<!-- <app-lancamento-cadastro></app-lancamento-cadastro> -->
-<app-lancamentos-pesquisa></app-lancamentos-pesquisa>
-<!-- <app-pessoas-pesquisa></app-pessoas-pesquisa> -->
+<app-navbar *ngIf="exibindoNavbar()"></app-navbar>
+
+
+<router-outlet></router-outlet>
+
+<p-toast></p-toast>
+
+<p-confirmDialog header="Confirmação" icon="pi pi-question-circle" #confirmacao>
+  <p-footer>
+    <button type="button" pButton icon="pi pi-check" label="Sim"
+      (click)="confirmacao.accept()"></button>
+    <button type="button" pButton icon="pi pi-times" label="Não"
+      (click)="confirmacao.reject()"></button>
+  </p-footer>
+</p-confirmDialog>

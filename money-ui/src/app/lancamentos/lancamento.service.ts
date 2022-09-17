@@ -1,34 +1,106 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 
+import { Lancamento } from '../core/model';
+import * as moment from 'moment';
+
+
+export class LancamentoFiltro {
+  descricao?: string;
+  dataVencimentoInicio?: Date;
+  dataVencimentoFim?: Date;
+  pagina = 0;
+  itensPorPagina = 5;
+}
 
 @Injectable({
   providedIn: 'root'
 })
 export class LancamentoService {
 
-  lancamentosUrl = 'localhost:8080/lancamentos';
+
+
+  lancamentosUrl = 'http://localhost:8080/lancamentos';
 
   constructor(private http: HttpClient) { }
 
-  pesquisar(): Promise<any> {
+  pesquisar(filtro: LancamentoFiltro): Promise<any> {
 
-    const headers = new HttpHeaders()
+    let params = new HttpParams()
+    .set('page', filtro.pagina)
+    .set('size', filtro.itensPorPagina);
 
-      .append('Authorization', 'Basic YWRtaW5AYWxnYW1vbmV5LmNvbTphZG1pbg==');
+    if (filtro.descricao) {
+      params = params.set('descricao', filtro.descricao);
+    }
 
+    if(filtro.dataVencimentoInicio) {
+      params = params.set('dataVencimentoDe',
+      moment(filtro.dataVencimentoInicio).format('YYYY-MM-DD'))
+    }
 
+    if(filtro.dataVencimentoFim) {
+      params = params.set('dataVencimentoAte',
+      moment(filtro.dataVencimentoFim).format('YYYY-MM-DD'))
+    }
 
-    return this.http.get(`${this.lancamentosUrl}?resumo`, { headers })
-
+    return this.http.get(`${this.lancamentosUrl}?resumo`, { params })
       .toPromise()
+      .then((response: any)=> {
+        const lancamentos = response['content'];
 
-      .then((response : any) => response['content']);
+        const resultado = {
+          lancamentos,
+          total: response['totalElements']
+        };
+
+        return resultado;
+      });
+  }
+
+  excluir(codigo: number): Promise<any> {
+
+      return this.http.delete(`${this.lancamentosUrl}/${codigo}`)
+      .toPromise()
+      .then( () => null);
+  }
+
+  adicionar(lancamento: Lancamento): Promise<Lancamento | any>{
+
+
+    return this.http.post<Lancamento>(this.lancamentosUrl, lancamento, )
+    .toPromise();
 
   }
 
-}
-function append(arg0: string, arg1: string) {
-  throw new Error('Function not implemented.');
-}
+  atualizar(lancamento: Lancamento): Promise<Lancamento | any> {
 
+    return this.http.put<Lancamento>(`${this.lancamentosUrl}/${lancamento.codigo}`, lancamento)
+      .toPromise();
+  }
+
+  buscarPorCodigo(codigo: number): Promise<Lancamento> {
+
+
+    return this.http.get(`${this.lancamentosUrl}/${codigo}`)
+      .toPromise()
+      .then((response: any) => {
+        this.converterStringsParaDatas([response]);
+
+        return response;
+      });
+  }
+
+  private converterStringsParaDatas(lancamentos: Lancamento[]) {
+    for (const lancamento of lancamentos) {
+      let offset = new Date().getTimezoneOffset() * 60000;
+
+      lancamento.dataVencimento = new Date(new Date(lancamento.dataVencimento!).getTime() + offset);
+
+      if (lancamento.dataPagamento) {
+        lancamento.dataPagamento = new Date(new Date(lancamento.dataPagamento).getTime() + offset);
+      }
+    }
+  }
+
+}

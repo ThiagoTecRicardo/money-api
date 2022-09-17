@@ -1,6 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+
 
 import { ButtonModule } from 'primeng/button';
 import { InputMaskModule } from 'primeng/inputmask';
@@ -10,35 +12,35 @@ import { TooltipModule } from 'primeng/tooltip';
 
 
 import { CadastroPessoalComponent } from './cadastro-pessoa/cadastro-pessoa.componen';
-import { PessoasGridComponent } from './pessoas-grid/pessoas-grid-component';
+
 import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.component';
 import { SharedModule } from '../shared/shared.module';
+import { PessoasRoutingModule } from './pessoas-routing-module';
 
 
 
 @NgModule({
    imports: [
 
+
     CommonModule,
     FormsModule,
+    RouterModule,
 
     InputTextModule,
     ButtonModule,
     TableModule,
     TooltipModule,
     InputMaskModule,
-    SharedModule
+    SharedModule,
+    PessoasRoutingModule
   ],
   declarations: [
-    PessoasGridComponent,
+
     PessoasPesquisaComponent,
     CadastroPessoalComponent
   ],
-  exports: [
-    PessoasPesquisaComponent,
-    CadastroPessoalComponent,
-    PessoasGridComponent
-  ]
+  exports: []
 
 })
 export class PessoasModule { }
