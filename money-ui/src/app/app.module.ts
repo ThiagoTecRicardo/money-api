@@ -29,19 +29,7 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
 }
 registerLocaleData(localePt);
 
-const routes: Routes = [
-  {path: '', redirectTo: 'lancamentos', pathMatch: 'full'},
-  {path: 'lancamentos', component: LancamentosPesquisaComponent},
-  {path: 'lancamentos/novo', component: LancamentoCadastroComponent},
-  {path: 'lancamentos/:codigo', component: LancamentoCadastroComponent},
-  {path: 'pessoas', component: PessoasPesquisaComponent},
-  {path: 'pessoas/nova', component: CadastroPessoalComponent},
-  {path: 'pagina-nao-encontrada', component: PaginaNaoEncontradaComponent},
-  {path: '**', redirectTo: 'pagina-nao-encontrada'},
 
-
-
-]
 
 @NgModule({
   declarations: [
@@ -62,7 +50,7 @@ TranslateModule.forRoot({
 
     BrowserModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(routes),
+
 
     LancamentosModule,
     PessoasModule,
