@@ -1,15 +1,29 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { AppComponent } from '../app.component';
+import { Title } from '@angular/platform-browser';
+
+import { JwtHelperService } from "@auth0/angular-jwt";
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
 
-  oauthTokenUrl = 'http://localhost:8080/oauth/token'
+  oauthTokenUrl = 'http://localhost:8080/oauth/token';
+  jwtPayload: any
 
-  constructor(private http: HttpClient) { }
+  constructor(
+    private http: HttpClient,
+    private title: Title,
+    private jwtHelper: JwtHelperService
+    ) {
+      this.carregarToken();
+    }
+
+    ngOnInit() {
+      this.title.setTitle('Tela de acesso');
+    }
 
   login(usario: string, senha : string): Promise<void> {
     const headers = new HttpHeaders()
@@ -20,11 +34,26 @@ export class AuthService {
 
     return this.http.post(this.oauthTokenUrl, body, { headers })
     .toPromise()
-    .then(reponse =>{
-      console.log(reponse);
+    .then( (response: any) => {
+      console.log(response);
+      this.armazenarToken(response['access_token']);
     })
     .catch(response => {
       console.log(response)
     });
+  }
+
+  public armazenarToken(token: string) {
+
+    this.jwtPayload = this.jwtHelper.decodeToken(token);
+
+    localStorage.setItem('token', token);
+  }
+  public carregarToken() {
+    const token = localStorage.getItem('token');
+
+    if (token) {
+      this.armazenarToken(token);
+    }
   }
 }

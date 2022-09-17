@@ -4,6 +4,9 @@ import { RouterModule } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { TranslateService } from '@ngx-translate/core';
 
+
+
+
 import { ErrorHandlerService } from './error-handler.service';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LancamentoService } from '../lancamentos/lancamento.service';
@@ -26,10 +29,6 @@ import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada.component'
   ],
   imports: [
 
-
-
-
-
    CommonModule,
     AvatarModule,
     RouterModule,
@@ -49,6 +48,7 @@ import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada.component'
       LancamentoService,
       MessageService,
       ConfirmationService,
+
       TranslateService,
       Title,
       AuthService,

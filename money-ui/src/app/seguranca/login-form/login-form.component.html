@@ -1,5 +1,7 @@
 <div class="container" style="max-width: 400px; margin: auto">
 
+  {{ auth.jwtPayload | json }}
+
   <form autocomplete="off" #loginForm="ngForm">
       <div class="grid">
 
