@@ -7,6 +7,7 @@ import { ErrorHandlerService } from '../../core/error-handler.service';
 
 import { LazyLoadEvent, MessageService, ConfirmationService } from 'primeng/api';
 import { Title } from '@angular/platform-browser';
+import { AuthService } from 'src/app/seguranca/auth.service';
 
 @Component({
   selector: 'app-lancamentos-pesquisa',
@@ -22,6 +23,7 @@ export class LancamentosPesquisaComponent implements OnInit{
 
   constructor(
     private lancamentoService: LancamentoService,
+    private auth: AuthService,
     private erroHandler: ErrorHandlerService,
     private messageService: MessageService,
     private confirmationService: ConfirmationService,
@@ -67,6 +69,10 @@ export class LancamentosPesquisaComponent implements OnInit{
         this.messageService.add({ severity: 'success', detail: 'Lançamento excluído com sucesso!' })
       })
       .catch(erro => this.erroHandler.handle(erro));
+  }
+
+  naoTemPermissao(permissao: string) {
+    return !this.auth.temPermissao(permissao);
   }
 
 }
