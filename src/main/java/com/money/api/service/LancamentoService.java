@@ -5,6 +5,7 @@ import java.sql.Date;
 import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
 
@@ -38,6 +39,7 @@ public class LancamentoService {
 		Map<String, Object> parametros = new HashMap<>();
 		parametros.put("DT_INICIO", Date.valueOf(inicio));
 		parametros.put("DT_FIM", Date.valueOf(fim));
+		parametros.put("REPORT_LOCATE", new Locale("pt", "BR"));
 		
 		InputStream inputStream = this.getClass().getResourceAsStream("/relatorios/Lancamentos-por-pessoa.jasper");
 		
