@@ -29,6 +29,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.money.api.dto.LancamentoEstatisticaCategoria;
+import com.money.api.dto.LancamentoEstatisticaCategoriaDia;
 import com.money.api.event.RecursoCriadoEvent;
 import com.money.api.exceptionhandler.MoneyExceptionHandler.Erro;
 import com.money.api.model.Lancamento;
@@ -52,6 +53,11 @@ public class LancamentoResource {
     
 	@Autowired
 	private MessageSource messageSource;
+	@GetMapping("/estatisticas/por-dia")
+	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_LANCAMENTO') and hasAuthority('SCOPE_read')")
+	public List<LancamentoEstatisticaCategoriaDia> porDia() {
+		return this.lancamentoRepository.porDia(LocalDate.now());
+	}
 	
 	@GetMapping("/estatisticas/por-categoria")
 	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_LANCAMENTO') and hasAuthority('SCOPE_read')")

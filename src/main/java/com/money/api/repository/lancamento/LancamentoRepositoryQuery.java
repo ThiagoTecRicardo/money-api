@@ -14,8 +14,9 @@ import com.money.api.repository.projection.ResumoLancamento;
 
 public interface LancamentoRepositoryQuery {
 	
-	public List<LancamentoEstatisticaCategoria> porCategoria(LocalDate mesreferencia);
-	public List<LancamentoEstatisticaCategoriaDia> porDia(LocalDate mesreferencia);
+	public List<LancamentoEstatisticaCategoria> porCategoria(LocalDate mesReferencia);
+	public List<LancamentoEstatisticaCategoriaDia> porDia(LocalDate mesReferencia);
+
 	
 	public Page<Lancamento> filtrar(LancamentoFilter lancamentoFilter, Pageable pageable);
 	public Page<ResumoLancamento> resumir(LancamentoFilter lancamentoFilter, Pageable pageable);
