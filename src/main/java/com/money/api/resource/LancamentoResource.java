@@ -53,6 +53,8 @@ public class LancamentoResource {
     
 	@Autowired
 	private MessageSource messageSource;
+	
+	
 	@GetMapping("/estatisticas/por-dia")
 	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_LANCAMENTO') and hasAuthority('SCOPE_read')")
 	public List<LancamentoEstatisticaCategoriaDia> porDia() {
