@@ -14,10 +14,13 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import com.money.api.dto.LancamentoEstatisticaPessoa;
+import com.money.api.mail.Mailer;
 import com.money.api.model.Lancamento;
 import com.money.api.model.Pessoa;
+import com.money.api.model.Usuario;
 import com.money.api.repository.LancamentoRepository;
 import com.money.api.repository.PessoaRepository;
+import com.money.api.repository.UsuarioRepository;
 import com.money.api.service.exception.PessoaInexistenteOuInativaException;
 
 import net.sf.jasperreports.engine.JasperExportManager;
@@ -28,15 +31,31 @@ import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 @Service
 public class LancamentoService {
 	
+	private static final String DESTINATARIOS = "ROLE_PESQUISAR_LANCAMENTO";
+	
 	@Autowired
 	private PessoaRepository pessoaRepository;
 	
 	@Autowired 
 	private LancamentoRepository lancamentoRepository;
 	
+	@Autowired
+	private UsuarioRepository usuarioRepository;
+	
+	@Autowired
+	private Mailer mailer;
+	
+	//@Scheduled(fixedDelay = 1000 * 60 * 30)
 	@Scheduled(cron = "0 0 6 * * *")
 	public void avisarSobreLancamentosVencidos() {
-		System.out.println(">>>>>>>>>>>>> Enviando email para lembrar dos boletos vencidos");
+		
+		List<Lancamento> vencidos = lancamentoRepository
+				.findByDataVencimentoLessThanEqualAndDataPagamentoIsNull(LocalDate.now());
+		List<Usuario> destinatarios = usuarioRepository
+				.findByPermissoesDescricao(DESTINATARIOS);
+		
+		mailer.avisarSobreLancamentosVencidos(vencidos, destinatarios);
+		
 		
 	}
 	
