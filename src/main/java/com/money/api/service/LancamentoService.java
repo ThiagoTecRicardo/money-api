@@ -9,11 +9,14 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
 
+import javax.swing.event.AncestorEvent;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import com.money.api.dto.LancamentoEstatisticaPessoa;
 import com.money.api.mail.Mailer;
@@ -24,6 +27,7 @@ import com.money.api.repository.LancamentoRepository;
 import com.money.api.repository.PessoaRepository;
 import com.money.api.repository.UsuarioRepository;
 import com.money.api.service.exception.PessoaInexistenteOuInativaException;
+import com.money.api.storage.S3;
 
 import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperFillManager;
@@ -48,6 +52,9 @@ public class LancamentoService {
 	
 	@Autowired
 	private Mailer mailer;
+	
+	@Autowired
+	private S3 s3;
 	
 	//@Scheduled(fixedDelay = 1000 * 60 * 30)
 	@Scheduled(cron = "0 0 6 * * *")
@@ -104,6 +111,11 @@ public class LancamentoService {
 		Optional<Pessoa> pessoa = pessoaRepository.findById(lancamento.getPessoa().getCodigo());
 		if (pessoa.isEmpty() || pessoa.get().isInativo()) {
 			throw new PessoaInexistenteOuInativaException();
+		}
+		
+		if(StringUtils.hasText(lancamento.getAnexo())) {
+			
+			s3.salvar(lancamento.getAnexo());
 		}
 		
 		return lancamentoRepository.save(lancamento);
