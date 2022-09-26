@@ -1,19 +1,20 @@
 package com.money.api.storage;
 
 import java.io.IOException;
-import java.util.UUID;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
+import java.util.UUID;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.AccessControlList;
+import com.amazonaws.services.s3.model.DeleteObjectRequest;
 import com.amazonaws.services.s3.model.GroupGrantee;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.ObjectTagging;
@@ -73,6 +74,22 @@ public class S3 {
 		return "\\\\" + property.getS3().getBucket() +
 				".s3.amazonaws.com/" + objeto;
 	}
+	
+	
+	public void remover(String objeto) {
+		DeleteObjectRequest deleteObjectRequest = new DeleteObjectRequest(
+				property.getS3().getBucket(), objeto);
+
+		amazonS3.deleteObject(deleteObjectRequest);
+	}
+
+	public void substituir(String objetoAntigo, String objetoNovo) {
+		if (StringUtils.hasText(objetoAntigo)) {
+			this.remover(objetoAntigo);
+		}
+
+		salvar(objetoNovo);
+	}	
 
 	public void salvar(String objeto) {
 		
@@ -83,9 +100,13 @@ public class S3 {
 			
 	}
 	
+	
+
 	private String gerarNomeUnico(String originalFilename) {
 		return UUID.randomUUID().toString() + "_" + originalFilename;
 	}
+
+		
 
 
 }

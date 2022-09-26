@@ -9,10 +9,11 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
 
-import javax.swing.event.AncestorEvent;
+
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
@@ -121,7 +122,46 @@ public class LancamentoService {
 		return lancamentoRepository.save(lancamento);
 	}
 	
+	public Lancamento atualizar(Long codigo, Lancamento lancamento) {
+		Lancamento lancamentoSalvo = buscarLancamentoExistente(codigo);
+		if (!lancamento.getPessoa().equals(lancamentoSalvo.getPessoa())) {
+			validarPessoa(lancamento);
+		}
+		
+		if (!StringUtils.hasLength(lancamento.getAnexo())
+				&& StringUtils.hasText(lancamentoSalvo.getAnexo())) {
+			s3.remover(lancamentoSalvo.getAnexo());
+		} else if (StringUtils.hasLength(lancamento.getAnexo())
+				&& !lancamento.getAnexo().equals(lancamentoSalvo.getAnexo())) {
+			s3.substituir(lancamentoSalvo.getAnexo(), lancamento.getAnexo());
+		}
+
+
+		BeanUtils.copyProperties(lancamento, lancamentoSalvo, "codigo");
+
+
+		return lancamentoRepository.save(lancamentoSalvo);
+	}
+
 	
+	private void validarPessoa(Lancamento lancamento) {
+		Optional<Pessoa> pessoa = null;
+		if (lancamento.getPessoa().getCodigo() != null) {
+			pessoa = pessoaRepository.findById(lancamento.getPessoa().getCodigo());
+		}
+
+		if (pessoa.isEmpty() || pessoa.get().isInativo()) {
+			throw new PessoaInexistenteOuInativaException();
+		}
+	}
+
+	private Lancamento buscarLancamentoExistente(Long codigo) {
+/* 		Optional<Lancamento> lancamentoSalvo = lancamentoRepository.findById(codigo);
+		if (lancamentoSalvo.isEmpty()) {
+			throw new IllegalArgumentException();
+		} */
+		return lancamentoRepository.findById(codigo).orElseThrow(() -> new IllegalArgumentException());
+	}	
 	
 	
 
