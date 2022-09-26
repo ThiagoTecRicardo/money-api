@@ -33,7 +33,7 @@ public class S3Config {
 		
 		AmazonS3 amazonS3 = AmazonS3ClientBuilder.standard()
 				.withCredentials(new AWSStaticCredentialsProvider(credenciais))
-				.withRegion(Regions.AP_EAST_1)
+				.withRegion(Regions.US_EAST_1)
 				.build();
 		
 		if(!amazonS3.doesBucketExistV2(property.getS3().getBucket())) {

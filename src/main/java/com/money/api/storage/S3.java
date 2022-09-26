@@ -24,7 +24,7 @@ import com.money.api.config.property.MoneyApiProperty;
 @Component
 public class S3 {
 	
-private static final Logger logger = LoggerFactory.getLogger(S3.class);
+	private static final Logger logger = LoggerFactory.getLogger(S3.class);
 	
 	@Autowired
 	private MoneyApiProperty property;
@@ -65,10 +65,14 @@ private static final Logger logger = LoggerFactory.getLogger(S3.class);
 			throw new RuntimeException("Problemas ao tentar enviar o arquivo para o S3.", e);
 		}
 	}
+	
+	public String configurarUrl(String objeto) {
+		return "\\\\" + property.getS3().getBucket() +
+				".s3.amazonaws.com/" + objeto;
+	}
 
 	private String gerarNomeUnico(String originalFilename) {
 		return UUID.randomUUID().toString() + "_" + originalFilename;
 	}
-
 
 }

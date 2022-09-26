@@ -34,6 +34,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.money.api.dto.Anexo;
 import com.money.api.dto.LancamentoEstatisticaCategoria;
 import com.money.api.dto.LancamentoEstatisticaCategoriaDia;
 import com.money.api.event.RecursoCriadoEvent;
@@ -66,7 +67,7 @@ public class LancamentoResource {
 	
 	@PostMapping("/anexo")
 	@PreAuthorize("hasAuthority('ROLE_CADASTRAR_LANCAMENTO') and hasAuthority('SCOPE_write')")
-	public String upLoadAnexo(@RequestParam MultipartFile anexo) throws IOException {
+	public Anexo upLoadAnexo(@RequestParam MultipartFile anexo) throws IOException {
 		
 //		OutputStream out = new FileOutputStream(
 //				"/Users/thiago/Documents/projetos/uploadArquivosApiMoney/anexo--" + anexo.getOriginalFilename());
@@ -75,7 +76,7 @@ public class LancamentoResource {
 		
 		String nome = s3.salvarTemporariamente(anexo);
 		
-		return nome;
+		return new Anexo(nome, s3.configurarUrl(nome));
 		
 	}
 	
