@@ -1,8 +1,6 @@
 package com.money.api.resource;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
@@ -46,6 +44,7 @@ import com.money.api.repository.filter.LancamentoFilter;
 import com.money.api.repository.projection.ResumoLancamento;
 import com.money.api.service.LancamentoService;
 import com.money.api.service.exception.PessoaInexistenteOuInativaException;
+import com.money.api.storage.S3;
 
 @RestController
 @RequestMapping("/lancamentos")
@@ -62,16 +61,21 @@ public class LancamentoResource {
 	@Autowired
 	private MessageSource messageSource;
 	
+	@Autowired
+	private S3 s3;
 	
 	@PostMapping("/anexo")
 	@PreAuthorize("hasAuthority('ROLE_CADASTRAR_LANCAMENTO') and hasAuthority('SCOPE_write')")
 	public String upLoadAnexo(@RequestParam MultipartFile anexo) throws IOException {
 		
-		OutputStream out = new FileOutputStream(
-				"/Users/thiago/Documents/projetos/uploadArquivosApiMoney/anexo--" + anexo.getOriginalFilename());
-		out.write(anexo.getBytes());
-		out.close();
-		return "ok";
+//		OutputStream out = new FileOutputStream(
+//				"/Users/thiago/Documents/projetos/uploadArquivosApiMoney/anexo--" + anexo.getOriginalFilename());
+//		out.write(anexo.getBytes());
+//		out.close();
+		
+		String nome = s3.salvarTemporariamente(anexo);
+		
+		return nome;
 		
 	}
 	

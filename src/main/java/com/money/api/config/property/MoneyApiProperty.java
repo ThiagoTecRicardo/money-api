@@ -11,6 +11,12 @@ public class MoneyApiProperty {
 	
 	private final Mail mail = new Mail();
 	
+	private final S3 s3 = new S3();
+	
+	public S3 getS3() {
+		return s3;
+	}
+	
 	public Mail getMail() {
 		return mail;
 	}
@@ -38,6 +44,42 @@ public class MoneyApiProperty {
 		public void setEnableHttps(boolean enableHttps) {
 			this.enableHttps = enableHttps;
 		}
+	}
+	
+	public static class S3 {
+		
+		private String AWSAccessKeyId = "AKIASJSNPZUEXGC4ITPX" ;
+		
+		private String AWSSecretKey = "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";
+		
+		private String bucket = "tr-money-arquivos";
+		
+		
+		public String getBucket() {
+			return bucket;
+		}
+
+		public void setBucket(String bucket) {
+			this.bucket = bucket;
+		}
+
+		public String getAWSAccessKeyId() {
+			return AWSAccessKeyId;
+		}
+
+		public void setAWSAccessKeyId(String aWSAccessKeyId) {
+			AWSAccessKeyId = aWSAccessKeyId;
+		}
+
+		public String getAWSSecretKey() {
+			return AWSSecretKey;
+		}
+
+		public void setAWSSecretKey(String aWSSecretKey) {
+			AWSSecretKey = aWSSecretKey;
+		}
+		
+		
 	}
 	
 	
