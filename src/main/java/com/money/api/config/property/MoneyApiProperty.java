@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties("money")
 public class MoneyApiProperty {
 	
-	private String originPermitida = "https://thiago-money.herokuapp.com/";
+	private String originPermitida = "https://thiago-money.herokuapp.com";
 	
 	private final Seguranca seguranca = new Seguranca();
 	
