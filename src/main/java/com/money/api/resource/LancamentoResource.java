@@ -74,9 +74,9 @@ public class LancamentoResource {
 //		out.write(anexo.getBytes());
 //		out.close();
 		
-		String nome = s3.salvarTemporariamente(anexo);
+	String nome = s3.salvarTemporariamente(anexo);
 		
-		return new Anexo(nome, s3.configurarUrl(nome));
+		return new Anexo(nome , s3.configurarUrl(nome));
 		
 	}
 	
