@@ -48,11 +48,11 @@ public class MoneyApiProperty {
 	
 	public static class S3 {
 		
-		private String AWSAccessKeyId = "AKIASJSNPZUEXGC4ITPX" ;
+		private String AWSAccessKeyId = "AKIA4K55Z2ZKQWI2FLOJ" ;
 		
-		private String AWSSecretKey = "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";
+		private String AWSSecretKey = "zS1pNRDJN+ecNL7f8tuwE0ciWaB7AXpq5t451cSM";
 		
-		private String bucket = "tr-money-arquivos";
+		private String bucket = "trs-money-arquivos";
 		
 		
 		public String getBucket() {
