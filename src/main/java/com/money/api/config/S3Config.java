@@ -17,45 +17,45 @@ import com.amazonaws.services.s3.model.lifecycle.LifecycleFilter;
 import com.amazonaws.services.s3.model.lifecycle.LifecycleTagPredicate;
 import com.money.api.config.property.MoneyApiProperty;
 
-@Configuration
+//@Configuration
 public class S3Config {
 	
-	@Autowired
-	private MoneyApiProperty property;
-	
-	
-	
-	@Bean
-	public AmazonS3 amazonS3() {
-		
-		AWSCredentials credenciais = new BasicAWSCredentials(
-				property.getS3().getAWSAccessKeyId(), property.getS3().getAWSSecretKey());
-		
-		AmazonS3 amazonS3 = AmazonS3ClientBuilder.standard()
-				.withCredentials(new AWSStaticCredentialsProvider(credenciais))
-				.withRegion(Regions.US_EAST_1)
-				.build();
-		
-		if(!amazonS3.doesBucketExistV2(property.getS3().getBucket())) {
-			amazonS3.createBucket(new CreateBucketRequest(property.getS3().getBucket()));
-			BucketLifecycleConfiguration.Rule regraExpiracao =
-					new BucketLifecycleConfiguration.Rule()
-							.withId("Regra de expiração de arquivos temporários")
-							.withFilter(new LifecycleFilter(
-									new LifecycleTagPredicate(new Tag("expirar", "true"))))
-							.withExpirationInDays(1)
-							.withStatus(BucketLifecycleConfiguration.ENABLED);
-
-			BucketLifecycleConfiguration configuration = new BucketLifecycleConfiguration()
-					.withRules(regraExpiracao);
-
-			amazonS3.setBucketLifecycleConfiguration(property.getS3().getBucket(),
-					configuration);
-		}
-		
-		return amazonS3;
-		
-		
-	}
+//	@Autowired
+//	private MoneyApiProperty property;
+//	
+//	
+//	
+//	@Bean
+//	public AmazonS3 amazonS3() {
+//		
+//		AWSCredentials credenciais = new BasicAWSCredentials(
+//				property.getS3().getAWSAccessKeyId(), property.getS3().getAWSSecretKey());
+//		
+//		AmazonS3 amazonS3 = AmazonS3ClientBuilder.standard()
+//				.withCredentials(new AWSStaticCredentialsProvider(credenciais))
+//				.withRegion(Regions.US_EAST_1)
+//				.build();
+//		
+//		if(!amazonS3.doesBucketExistV2(property.getS3().getBucket())) {
+//			amazonS3.createBucket(new CreateBucketRequest(property.getS3().getBucket()));
+//			BucketLifecycleConfiguration.Rule regraExpiracao =
+//					new BucketLifecycleConfiguration.Rule()
+//							.withId("Regra de expiração de arquivos temporários")
+//							.withFilter(new LifecycleFilter(
+//									new LifecycleTagPredicate(new Tag("expirar", "true"))))
+//							.withExpirationInDays(1)
+//							.withStatus(BucketLifecycleConfiguration.ENABLED);
+//
+//			BucketLifecycleConfiguration configuration = new BucketLifecycleConfiguration()
+//					.withRules(regraExpiracao);
+//
+//			amazonS3.setBucketLifecycleConfiguration(property.getS3().getBucket(),
+//					configuration);
+//		}
+//		
+//		return amazonS3;
+//		
+//		
+//	}
 
 }

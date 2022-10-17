@@ -1,6 +1,8 @@
 package com.money.api.resource;
 
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
@@ -62,23 +64,23 @@ public class LancamentoResource {
 	@Autowired
 	private MessageSource messageSource;
 	
-	@Autowired
-	private S3 s3;
 	
-	@PostMapping("/anexo")
-	@PreAuthorize("hasAuthority('ROLE_CADASTRAR_LANCAMENTO') and hasAuthority('SCOPE_write')")
-	public Anexo upLoadAnexo(@RequestParam MultipartFile anexo) throws IOException {
-		
+	
+//	@PostMapping("/anexo")
+//	@PreAuthorize("hasAuthority('ROLE_CADASTRAR_LANCAMENTO') and hasAuthority('SCOPE_write')")
+//	public Anexo upLoadAnexo(@RequestParam MultipartFile anexo) throws IOException {
+//		
 //		OutputStream out = new FileOutputStream(
-//				"/Users/thiago/Documents/projetos/uploadArquivosApiMoney/anexo--" + anexo.getOriginalFilename());
+//				"/anexos/uploadArquivosApiMoney/anexo--" + anexo.getOriginalFilename());
 //		out.write(anexo.getBytes());
 //		out.close();
-		
-	String nome = s3.salvarTemporariamente(anexo);
-		
-		return new Anexo(nome , s3.configurarUrl(nome));
-		
-	}
+//		
+////	String nome = s3.salvarTemporariamente(anexo);
+////		
+//		//return  ;
+//		
+//		
+//	}
 	
 	
 	@GetMapping("/relatorios/por-pessoa")

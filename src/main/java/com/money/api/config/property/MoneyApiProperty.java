@@ -11,11 +11,11 @@ public class MoneyApiProperty {
 	
 	private final Mail mail = new Mail();
 	
-	private final S3 s3 = new S3();
-	
-	public S3 getS3() {
-		return s3;
-	}
+//	private final S3 s3 = new S3();
+//	
+//	public S3 getS3() {
+//		return s3;
+//	}
 	
 	public Mail getMail() {
 		return mail;
@@ -46,42 +46,42 @@ public class MoneyApiProperty {
 		}
 	}
 	
-	public static class S3 {
-		
-		private String AWSAccessKeyId = "AKIA4K55Z2ZKQWI2FLOJ" ;
-		
-		private String AWSSecretKey = "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";
-		
-		private String bucket = "trs-money-arquivos";
-		
-		
-		public String getBucket() {
-			return bucket;
-		}
-
-		public void setBucket(String bucket) {
-			this.bucket = bucket;
-		}
-
-		public String getAWSAccessKeyId() {
-			return AWSAccessKeyId;
-		}
-
-		public void setAWSAccessKeyId(String aWSAccessKeyId) {
-			AWSAccessKeyId = aWSAccessKeyId;
-		}
-
-		public String getAWSSecretKey() {
-			return AWSSecretKey;
-		}
-
-		public void setAWSSecretKey(String aWSSecretKey) {
-			AWSSecretKey = aWSSecretKey;
-		}
-		
-		
-	}
-	
+//	public static class S3 {
+//		
+//		private String AWSAccessKeyId = "" ;
+//		
+//		private String AWSSecretKey = "";
+//		
+//		private String bucket = "";
+//		
+//		
+//		public String getBucket() {
+//			return bucket;
+//		}
+//
+//		public void setBucket(String bucket) {
+//			this.bucket = bucket;
+//		}
+//
+//		public String getAWSAccessKeyId() {
+//			return AWSAccessKeyId;
+//		}
+//
+//		public void setAWSAccessKeyId(String aWSAccessKeyId) {
+//			AWSAccessKeyId = aWSAccessKeyId;
+//		}
+//
+//		public String getAWSSecretKey() {
+//			return AWSSecretKey;
+//		}
+//
+//		public void setAWSSecretKey(String aWSSecretKey) {
+//			AWSSecretKey = aWSSecretKey;
+//		}
+//		
+//		
+//	}
+//	
 	
 	public static class Mail {
 
